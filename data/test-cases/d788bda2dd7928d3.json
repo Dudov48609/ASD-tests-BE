@@ -1,0 +1,211 @@
+{
+  "uid" : "d788bda2dd7928d3",
+  "name" : "Delete meme by id",
+  "fullName" : "tests.test_memes#test_delete_a_meme",
+  "historyId" : "e7758be2c4c24fceab73d80428c70fc9",
+  "time" : {
+    "start" : 1690749616381,
+    "stop" : 1690749616663,
+    "duration" : 282
+  },
+  "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
+  "descriptionHtml" : "<p>This test involves getting a meme by its id and conducting some checks afterwards</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f40a7920a40>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f40a7920a40>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f40a7920a40>.is_response_200",
+  "statusTrace" : "base_url = 'http://167.172.172.115:52355', auth_token = 'h50kVVJ1cEWAUo8'\nmeme_id = 12\n\n    @allure.issue('https://github.com/usr/project/memes/issues/12')\n    @allure.title('Delete meme by id')\n    @allure.feature('Delete memes')\n    @allure.severity(allure.severity_level.NORMAL)\n    @allure.description('This test involves getting a meme by its id and conducting some checks afterwards')\n    @pytest.mark.parametrize('meme_id', range(2, 22))\n    def test_delete_a_meme(base_url, auth_token, meme_id):\n        with allure.step('Requesting DELETE endpoint'):\n            delete_meme = DeleteEnpoints(base_url, auth_token, meme_id)\n        with allure.step('Skip deleting if id is not in id range'):\n            delete_meme.skip_404()\n        with allure.step('Checking response status'):\n>           assert delete_meme.is_response_200(), f\"Expected status code 200, but got {delete_meme.status_code}\"\nE           AssertionError: Expected status code 200, but got 400\nE           assert False\nE            +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f40a7920a40>>()\nE            +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f40a7920a40>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f40a7920a40>.is_response_200\n\ntests/test_memes.py:103: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1690749608524,
+      "stop" : 1690749608524,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1690749608524,
+      "stop" : 1690749608711,
+      "duration" : 187
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f40a7920a40>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f40a7920a40>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f40a7920a40>.is_response_200",
+    "statusTrace" : "base_url = 'http://167.172.172.115:52355', auth_token = 'h50kVVJ1cEWAUo8'\nmeme_id = 12\n\n    @allure.issue('https://github.com/usr/project/memes/issues/12')\n    @allure.title('Delete meme by id')\n    @allure.feature('Delete memes')\n    @allure.severity(allure.severity_level.NORMAL)\n    @allure.description('This test involves getting a meme by its id and conducting some checks afterwards')\n    @pytest.mark.parametrize('meme_id', range(2, 22))\n    def test_delete_a_meme(base_url, auth_token, meme_id):\n        with allure.step('Requesting DELETE endpoint'):\n            delete_meme = DeleteEnpoints(base_url, auth_token, meme_id)\n        with allure.step('Skip deleting if id is not in id range'):\n            delete_meme.skip_404()\n        with allure.step('Checking response status'):\n>           assert delete_meme.is_response_200(), f\"Expected status code 200, but got {delete_meme.status_code}\"\nE           AssertionError: Expected status code 200, but got 400\nE           assert False\nE            +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f40a7920a40>>()\nE            +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f40a7920a40>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f40a7920a40>.is_response_200\n\ntests/test_memes.py:103: AssertionError",
+    "steps" : [ {
+      "name" : "Requesting DELETE endpoint",
+      "time" : {
+        "start" : 1690749616381,
+        "stop" : 1690749616662,
+        "duration" : 281
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Skip deleting if id is not in id range",
+      "time" : {
+        "start" : 1690749616662,
+        "stop" : 1690749616662,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Checking response status",
+      "time" : {
+        "start" : 1690749616662,
+        "stop" : 1690749616662,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f40a7920a40>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f40a7920a40>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f40a7920a40>.is_response_200\n",
+      "statusTrace" : "  File \"/usr/workspace/tests/test_memes.py\", line 103, in test_delete_a_meme\n    assert delete_meme.is_response_200(), f\"Expected status code 200, but got {delete_meme.status_code}\"\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Delete memes"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_memes"
+  }, {
+    "name" : "host",
+    "value" : "c32ebc47e266"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_memes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "meme_id",
+    "value" : "12"
+  } ],
+  "links" : [ {
+    "name" : "https://github.com/usr/project/memes/issues/12",
+    "url" : "https://github.com/usr/project/memes/issues/12",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "3649e51bc0a260bb",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f20a3482d50>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f20a3482d50>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f20a3482d50>.is_response_200",
+        "time" : {
+          "start" : 1690746393338,
+          "stop" : 1690746393628,
+          "duration" : 290
+        }
+      }, {
+        "uid" : "eb327b0b2fc5740d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f555485faa0>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f555485faa0>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f555485faa0>.is_response_200",
+        "time" : {
+          "start" : 1690743927545,
+          "stop" : 1690743927787,
+          "duration" : 242
+        }
+      }, {
+        "uid" : "de82cb23f24ace81",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fe27d00d7f0>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fe27d00d7f0>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fe27d00d7f0>.is_response_200",
+        "time" : {
+          "start" : 1690743512914,
+          "stop" : 1690743513177,
+          "duration" : 263
+        }
+      }, {
+        "uid" : "25f923f65cec7be3",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694717fb0>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694717fb0>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694717fb0>.is_response_200",
+        "time" : {
+          "start" : 1690726494976,
+          "stop" : 1690726495153,
+          "duration" : 177
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d788bda2dd7928d3.json",
+  "parameterValues" : [ "12" ]
+}

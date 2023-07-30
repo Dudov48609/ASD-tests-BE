@@ -1,0 +1,275 @@
+{
+  "uid" : "c3760c95b7a40fbd",
+  "name" : "Create a meme",
+  "fullName" : "tests.test_memes#test_create_a_meme",
+  "historyId" : "b4fca8ba2800b91749ce3fee0c6e4b5c",
+  "time" : {
+    "start" : 1690749610809,
+    "stop" : 1690749611040,
+    "duration" : 231
+  },
+  "description" : "This test involves creating 10 memes and conducting some checks afterwards",
+  "descriptionHtml" : "<p>This test involves creating 10 memes and conducting some checks afterwards</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "tag",
+    "time" : {
+      "start" : 1690749608712,
+      "stop" : 1690749608712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "texts",
+    "time" : {
+      "start" : 1690749608712,
+      "stop" : 1690749608712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1690749608524,
+      "stop" : 1690749608524,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "infos",
+    "time" : {
+      "start" : 1690749608712,
+      "stop" : 1690749608712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1690749608524,
+      "stop" : 1690749608711,
+      "duration" : 187
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "urls",
+    "time" : {
+      "start" : 1690749608712,
+      "stop" : 1690749608712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This test involves creating 10 memes and conducting some checks afterwards",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Requesting POST endpoint with data",
+      "time" : {
+        "start" : 1690749610809,
+        "stop" : 1690749611039,
+        "duration" : 230
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Checking response status",
+      "time" : {
+        "start" : 1690749611039,
+        "stop" : 1690749611039,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check meme data (URL)",
+      "time" : {
+        "start" : 1690749611039,
+        "stop" : 1690749611039,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Printing the result",
+      "time" : {
+        "start" : 1690749611039,
+        "stop" : 1690749611039,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create a meme"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_memes"
+  }, {
+    "name" : "host",
+    "value" : "c32ebc47e266"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_memes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "repeat",
+    "value" : "9"
+  }, {
+    "name" : "urls_control",
+    "value" : "'https://media.tenor.com/Kdw0KeHJMogAAAAd/will-you-please-come-home-randy-marsh.gif'"
+  } ],
+  "links" : [ {
+    "name" : "https://github.com/usr/project/memes/issues/25",
+    "url" : "https://github.com/usr/project/memes/issues/25",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "83d481e2c74b7603",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690746387253,
+          "stop" : 1690746387535,
+          "duration" : 282
+        }
+      }, {
+        "uid" : "79d472b359563a18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690743922455,
+          "stop" : 1690743922698,
+          "duration" : 243
+        }
+      }, {
+        "uid" : "d4aae506e0c51288",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690743507447,
+          "stop" : 1690743507711,
+          "duration" : 264
+        }
+      }, {
+        "uid" : "536fdc5eefa6d368",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690726490760,
+          "stop" : 1690726490944,
+          "duration" : 184
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c3760c95b7a40fbd.json",
+  "parameterValues" : [ "9", "'https://media.tenor.com/Kdw0KeHJMogAAAAd/will-you-please-come-home-randy-marsh.gif'" ]
+}
