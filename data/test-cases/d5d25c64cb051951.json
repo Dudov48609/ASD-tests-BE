@@ -1,12 +1,12 @@
 {
-  "uid" : "38ef7b2184e4acab",
+  "uid" : "d5d25c64cb051951",
   "name" : "Get meme by id",
   "fullName" : "tests.test_memes#test_get_a_meme_with_id",
-  "historyId" : "2de5dbc925c4bd0387f21eb2469a112e",
+  "historyId" : "9a11440f96c4a8e8a2a311daf21a0c58",
   "time" : {
-    "start" : 1690749612848,
-    "stop" : 1690749613101,
-    "duration" : 253
+    "start" : 1690751116690,
+    "stop" : 1690751116979,
+    "duration" : 289
   },
   "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
   "descriptionHtml" : "<p>This test involves getting a meme by its id and conducting some checks afterwards</p>\n",
@@ -14,34 +14,34 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "base_url",
-    "time" : {
-      "start" : 1690749608524,
-      "stop" : 1690749608524,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "stepsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "auth_token",
     "time" : {
-      "start" : 1690749608524,
-      "stop" : 1690749608711,
-      "duration" : 187
+      "start" : 1690751111289,
+      "stop" : 1690751111584,
+      "duration" : 295
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1690751111288,
+      "stop" : 1690751111289,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
     "hasContent" : false
   } ],
   "testStage" : {
@@ -50,23 +50,23 @@
     "steps" : [ {
       "name" : "Requesting GET endpoint with tag_control",
       "time" : {
-        "start" : 1690749612848,
-        "stop" : 1690749613101,
-        "duration" : 253
+        "start" : 1690751116690,
+        "stop" : 1690751116978,
+        "duration" : 288
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "Checking response status",
       "time" : {
-        "start" : 1690749613101,
-        "stop" : 1690749613101,
+        "start" : 1690751116979,
+        "stop" : 1690751116979,
         "duration" : 0
       },
       "status" : "passed",
@@ -74,14 +74,14 @@
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "Checking tag",
       "time" : {
-        "start" : 1690749613101,
-        "stop" : 1690749613101,
+        "start" : 1690751116979,
+        "stop" : 1690751116979,
         "duration" : 0
       },
       "status" : "passed",
@@ -89,14 +89,14 @@
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "Printing the result",
       "time" : {
-        "start" : 1690749613101,
-        "stop" : 1690749613101,
+        "start" : 1690751116979,
+        "stop" : 1690751116979,
         "duration" : 0
       },
       "status" : "passed",
@@ -104,24 +104,24 @@
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
-    "stepsCount" : 4,
     "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
     "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "story",
-    "value" : "Get by id"
-  }, {
     "name" : "severity",
     "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Get by id"
   }, {
     "name" : "feature",
     "value" : "Get memes"
@@ -133,7 +133,7 @@
     "value" : "test_memes"
   }, {
     "name" : "host",
-    "value" : "c32ebc47e266"
+    "value" : "7ed94d9e10fd"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -152,7 +152,7 @@
   } ],
   "parameters" : [ {
     "name" : "meme_id",
-    "value" : "5"
+    "value" : "4"
   }, {
     "name" : "tag_c",
     "value" : "'fun'"
@@ -173,46 +173,54 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 5,
+        "passed" : 6,
         "unknown" : 0,
-        "total" : 5
+        "total" : 6
       },
       "items" : [ {
-        "uid" : "e7e57b54df460212",
+        "uid" : "c8cf65cf7038be93",
         "status" : "passed",
         "time" : {
-          "start" : 1690746389488,
-          "stop" : 1690746389775,
+          "start" : 1690749612565,
+          "stop" : 1690749612846,
+          "duration" : 281
+        }
+      }, {
+        "uid" : "1437f4bdb7aa2a9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690746389199,
+          "stop" : 1690746389486,
           "duration" : 287
         }
       }, {
-        "uid" : "ebe6c6e5eb08b1a8",
+        "uid" : "be45620d265fcbc2",
         "status" : "passed",
         "time" : {
-          "start" : 1690743924313,
-          "stop" : 1690743924554,
-          "duration" : 241
+          "start" : 1690743924077,
+          "stop" : 1690743924311,
+          "duration" : 234
         }
       }, {
-        "uid" : "4013480faf7ad5b",
+        "uid" : "556e35ff65cd85ca",
         "status" : "passed",
         "time" : {
-          "start" : 1690743509499,
-          "stop" : 1690743509746,
-          "duration" : 247
+          "start" : 1690743509238,
+          "stop" : 1690743509495,
+          "duration" : 257
         }
       }, {
-        "uid" : "428123fabef303ab",
+        "uid" : "6eea76634100f97a",
         "status" : "passed",
         "time" : {
-          "start" : 1690726492242,
-          "stop" : 1690726492424,
-          "duration" : 182
+          "start" : 1690726492064,
+          "stop" : 1690726492240,
+          "duration" : 176
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "38ef7b2184e4acab.json",
-  "parameterValues" : [ "5", "'fun'" ]
+  "source" : "d5d25c64cb051951.json",
+  "parameterValues" : [ "4", "'fun'" ]
 }

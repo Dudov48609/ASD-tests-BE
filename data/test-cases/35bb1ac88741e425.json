@@ -1,12 +1,12 @@
 {
-  "uid" : "996217a736ac05b6",
+  "uid" : "35bb1ac88741e425",
   "name" : "Delete meme by id",
   "fullName" : "tests.test_memes#test_delete_a_meme",
-  "historyId" : "82a05a31bfb186a281bb8b4900dac657",
+  "historyId" : "53ba52515d66cb161670a059781b409f",
   "time" : {
-    "start" : 1690749615062,
-    "stop" : 1690749615350,
-    "duration" : 288
+    "start" : 1690751119934,
+    "stop" : 1690751120220,
+    "duration" : 286
   },
   "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
   "descriptionHtml" : "<p>This test involves getting a meme by its id and conducting some checks afterwards</p>\n",
@@ -16,34 +16,34 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "base_url",
-    "time" : {
-      "start" : 1690749608524,
-      "stop" : 1690749608524,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "stepsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
     "name" : "auth_token",
     "time" : {
-      "start" : 1690749608524,
-      "stop" : 1690749608711,
-      "duration" : 187
+      "start" : 1690751111289,
+      "stop" : 1690751111584,
+      "duration" : 295
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
-    "stepsCount" : 0,
     "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1690751111288,
+      "stop" : 1690751111289,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
     "hasContent" : false
   } ],
   "testStage" : {
@@ -54,23 +54,23 @@
     "steps" : [ {
       "name" : "Requesting DELETE endpoint",
       "time" : {
-        "start" : 1690749615062,
-        "stop" : 1690749615349,
-        "duration" : 287
+        "start" : 1690751119934,
+        "stop" : 1690751120220,
+        "duration" : 286
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
       "hasContent" : false
     }, {
       "name" : "Skip deleting if id is not in id range",
       "time" : {
-        "start" : 1690749615349,
-        "stop" : 1690749615349,
+        "start" : 1690751120220,
+        "stop" : 1690751120220,
         "duration" : 0
       },
       "status" : "skipped",
@@ -80,24 +80,24 @@
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
-      "stepsCount" : 0,
       "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
       "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
-    "stepsCount" : 2,
     "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
     "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "Delete memes"
-  }, {
     "name" : "severity",
     "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Delete memes"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
@@ -106,7 +106,7 @@
     "value" : "test_memes"
   }, {
     "name" : "host",
-    "value" : "c32ebc47e266"
+    "value" : "7ed94d9e10fd"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -125,7 +125,7 @@
   } ],
   "parameters" : [ {
     "name" : "meme_id",
-    "value" : "7"
+    "value" : "1287"
   } ],
   "links" : [ {
     "name" : "https://github.com/usr/project/memes/issues/12",
@@ -138,55 +138,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 5,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 5
-      },
-      "items" : [ {
-        "uid" : "ce27439df687c3a7",
-        "status" : "skipped",
-        "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
-        "time" : {
-          "start" : 1690746391866,
-          "stop" : 1690746392152,
-          "duration" : 286
-        }
-      }, {
-        "uid" : "ca40e043ad9884fb",
-        "status" : "skipped",
-        "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
-        "time" : {
-          "start" : 1690743926319,
-          "stop" : 1690743926560,
-          "duration" : 241
-        }
-      }, {
-        "uid" : "b5e6e7b0a090e465",
-        "status" : "skipped",
-        "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
-        "time" : {
-          "start" : 1690743511612,
-          "stop" : 1690743511866,
-          "duration" : 254
-        }
-      }, {
-        "uid" : "6b75dbebcbf383c7",
-        "status" : "skipped",
-        "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
-        "time" : {
-          "start" : 1690726494071,
-          "stop" : 1690726494247,
-          "duration" : 176
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "996217a736ac05b6.json",
-  "parameterValues" : [ "7" ]
+  "source" : "35bb1ac88741e425.json",
+  "parameterValues" : [ "1287" ]
 }
