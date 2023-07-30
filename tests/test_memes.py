@@ -32,7 +32,7 @@ def test_create_a_meme(base_url, auth_token, texts, urls, tag, infos, urls_contr
 @allure.feature('Change a meme')
 @allure.severity(allure.severity_level.NORMAL)
 @allure.description('This test involves changing the memes and conducting some checks afterwards')
-@pytest.mark.parametrize('meme_id', [2, 3])
+@pytest.mark.parametrize('meme_id', [1270, 1271])
 def test_change_a_meme(base_url, auth_token, meme_id):
     with allure.step('Requesting PUT endpoint with new data'):
         change_meme = PutEnpoints(base_url, auth_token, meme_id)
@@ -93,7 +93,7 @@ def test_get_a_meme_with_id(base_url, auth_token, meme_id, tag_c):
 @allure.feature('Delete memes')
 @allure.severity(allure.severity_level.NORMAL)
 @allure.description('This test involves getting a meme by its id and conducting some checks afterwards')
-@pytest.mark.parametrize('meme_id', range(2, 22))
+@pytest.mark.parametrize('meme_id', range(1280, 1289))
 def test_delete_a_meme(base_url, auth_token, meme_id):
     with allure.step('Requesting DELETE endpoint'):
         delete_meme = DeleteEnpoints(base_url, auth_token, meme_id)

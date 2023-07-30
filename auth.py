@@ -12,7 +12,7 @@ def authorize(base_url):
         "Content-Type": "application/json"
     }
     data = {
-        "name": os.getenv("LOGIN")
+        "name": "asd"
     }
     authorize = requests.post(url, headers=headers, data=json.dumps(data)).text
     json_data = json.loads(authorize)
