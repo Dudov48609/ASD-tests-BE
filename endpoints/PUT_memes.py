@@ -17,10 +17,10 @@ class PutEnpoints(EndpointMainRules):
         }
         body = {
             "id": meme_id,
-            "text": 6,
+            "text": "changed_text",
             "url": 'urls_control',
-            "tags": [],
-            "info": {"type": ["giffffff", "meme"], "objects": ["pictureeeee", "text"]}
+            "tags": ["fun"],
+            "info": {"type": ["changed_type", "meme"], "objects": ["changed_object", "text"]}
         }
         result = requests.put(m_url, headers=headers, json=body)
         return result

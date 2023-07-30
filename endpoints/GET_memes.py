@@ -3,7 +3,7 @@ from endpoints.base_endpoint_rules import EndpointMainRules
 
 
 class GetEndpoints(EndpointMainRules):
-    def __init__(self, base_url, auth_token, meme_id=None, tag_control=None):
+    def __init__(self, base_url, auth_token, meme_id=None):
         self.result = self.gets(base_url, auth_token, meme_id)
         self.result_text = self.result.text
         self.result_json = self.result.json()
@@ -21,7 +21,7 @@ class GetEndpoints(EndpointMainRules):
         result = requests.get(m_url, headers=token)
         return result
 
-    def tag_is_correct(self, tag_control):
+    def tag_is_correct(self):
         if 'data' in self.result_json:
             rzlt = self.result_json['data'][0]['tags']
         else:

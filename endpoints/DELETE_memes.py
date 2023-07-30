@@ -17,7 +17,3 @@ class DeleteEnpoints(EndpointMainRules):
         }
         result = requests.delete(m_url, headers=headers)
         return result
-
-    def skip_404(self):
-        if self.status_code == 404:
-            pytest.skip("Skipping the test as the status code is 404.")

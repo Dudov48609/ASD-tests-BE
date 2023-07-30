@@ -1,3 +1,4 @@
+import allure
 import requests
 from endpoints.base_endpoint_rules import EndpointMainRules
 
@@ -8,6 +9,8 @@ class PostEnpoints(EndpointMainRules):
         self.result_json = self.result.json()
         self.result_url = self.result_json.get('url')
         self.status_code = self.result.status_code
+        self.created_item_id = self.result.json()["id"]
+        self.created_items = []
 
     def posts(self, base_url, auth_token, texts, urls, tag, infos):
         m_url = f'{base_url}/meme'
@@ -24,5 +27,6 @@ class PostEnpoints(EndpointMainRules):
         result = requests.post(m_url, headers=headers, json=body)
         return result
 
-    def link_is_correct(self, urls_control):
-        return self.result_url == urls_control
+    def url_is_correct(self, url_control='https://media.tenor.com/Kdw0KeHJMogAAAAd/will-you-please-come-home-randy-marsh.gif'):
+        with allure.step('Check meme data (URL)'):
+            return self.result_url == url_control

@@ -1,5 +1,4 @@
 import pytest
-
 from auth import authorize
 
 
