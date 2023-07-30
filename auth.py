@@ -16,5 +16,5 @@ def authorize(base_url):
     }
     authorize = requests.post(url, headers=headers, data=json.dumps(data)).text
     json_data = json.loads(authorize)
-    asd_token_value = json_data["token"]
-    return asd_token_value
+    auth_token = json_data["token"]
+    return auth_token
