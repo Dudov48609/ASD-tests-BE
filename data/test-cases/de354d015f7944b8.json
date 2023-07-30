@@ -1,12 +1,12 @@
 {
-  "uid" : "e3ca6b26996c10fe",
+  "uid" : "de354d015f7944b8",
   "name" : "Change a meme",
   "fullName" : "tests.test_memes#test_change_a_meme",
-  "historyId" : "7d5870b3db04ea4ac602c34e06b17252",
+  "historyId" : "ee02a880050a9d2b67507682ebfcb1c0",
   "time" : {
-    "start" : 1690751115111,
-    "stop" : 1690751115688,
-    "duration" : 577
+    "start" : 1690751883154,
+    "stop" : 1690751883529,
+    "duration" : 375
   },
   "description" : "This test involves changing the memes and conducting some checks afterwards",
   "descriptionHtml" : "<p>This test involves changing the memes and conducting some checks afterwards</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "auth_token",
     "time" : {
-      "start" : 1690751111289,
-      "stop" : 1690751111584,
-      "duration" : 295
+      "start" : 1690751881038,
+      "stop" : 1690751881233,
+      "duration" : 195
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,9 +31,9 @@
   }, {
     "name" : "base_url",
     "time" : {
-      "start" : 1690751111288,
-      "stop" : 1690751111289,
-      "duration" : 1
+      "start" : 1690751881038,
+      "stop" : 1690751881038,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,9 +50,9 @@
     "steps" : [ {
       "name" : "Requesting PUT endpoint with new data",
       "time" : {
-        "start" : 1690751115111,
-        "stop" : 1690751115391,
-        "duration" : 280
+        "start" : 1690751883154,
+        "stop" : 1690751883345,
+        "duration" : 191
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,8 +65,8 @@
     }, {
       "name" : "Checking response status",
       "time" : {
-        "start" : 1690751115391,
-        "stop" : 1690751115391,
+        "start" : 1690751883346,
+        "stop" : 1690751883346,
         "duration" : 0
       },
       "status" : "passed",
@@ -80,9 +80,9 @@
     }, {
       "name" : "Requesting GET endpoint with meme_id",
       "time" : {
-        "start" : 1690751115391,
-        "stop" : 1690751115688,
-        "duration" : 297
+        "start" : 1690751883346,
+        "stop" : 1690751883529,
+        "duration" : 183
       },
       "status" : "passed",
       "steps" : [ ],
@@ -95,8 +95,8 @@
     }, {
       "name" : "Comparing result of changing data",
       "time" : {
-        "start" : 1690751115688,
-        "stop" : 1690751115688,
+        "start" : 1690751883529,
+        "stop" : 1690751883529,
         "duration" : 0
       },
       "status" : "passed",
@@ -110,8 +110,8 @@
     }, {
       "name" : "Printing the result",
       "time" : {
-        "start" : 1690751115688,
-        "stop" : 1690751115688,
+        "start" : 1690751883529,
+        "stop" : 1690751883529,
         "duration" : 0
       },
       "status" : "passed",
@@ -125,8 +125,8 @@
     }, {
       "name" : "Printing GET response",
       "time" : {
-        "start" : 1690751115688,
-        "stop" : 1690751115688,
+        "start" : 1690751883529,
+        "stop" : 1690751883529,
         "duration" : 0
       },
       "status" : "passed",
@@ -147,11 +147,11 @@
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "normal"
-  }, {
     "name" : "feature",
     "value" : "Change a meme"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
@@ -160,7 +160,7 @@
     "value" : "test_memes"
   }, {
     "name" : "host",
-    "value" : "7ed94d9e10fd"
+    "value" : "2f47a452746a"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -179,7 +179,7 @@
   } ],
   "parameters" : [ {
     "name" : "meme_id",
-    "value" : "1271"
+    "value" : "1270"
   } ],
   "links" : [ {
     "name" : "https://github.com/usr/project/memes/issues/22",
@@ -192,8 +192,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a74e88f500ab7ac1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690751114525,
+          "stop" : 1690751115109,
+          "duration" : 584
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "e3ca6b26996c10fe.json",
-  "parameterValues" : [ "1271" ]
+  "source" : "de354d015f7944b8.json",
+  "parameterValues" : [ "1270" ]
 }

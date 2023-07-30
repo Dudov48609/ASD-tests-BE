@@ -1,12 +1,12 @@
 {
-  "uid" : "a9c90833bd7743d2",
+  "uid" : "8a8e9041593ef64e",
   "name" : "Get meme by id",
   "fullName" : "tests.test_memes#test_get_a_meme_with_id",
-  "historyId" : "5e83ef9686ab1bff0e599bbf163f272f",
+  "historyId" : "2de5dbc925c4bd0387f21eb2469a112e",
   "time" : {
-    "start" : 1690751117268,
-    "stop" : 1690751117547,
-    "duration" : 279
+    "start" : 1690751884765,
+    "stop" : 1690751884953,
+    "duration" : 188
   },
   "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
   "descriptionHtml" : "<p>This test involves getting a meme by its id and conducting some checks afterwards</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "auth_token",
     "time" : {
-      "start" : 1690751111289,
-      "stop" : 1690751111584,
-      "duration" : 295
+      "start" : 1690751881038,
+      "stop" : 1690751881233,
+      "duration" : 195
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,9 +31,9 @@
   }, {
     "name" : "base_url",
     "time" : {
-      "start" : 1690751111288,
-      "stop" : 1690751111289,
-      "duration" : 1
+      "start" : 1690751881038,
+      "stop" : 1690751881038,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,9 +50,9 @@
     "steps" : [ {
       "name" : "Requesting GET endpoint with tag_control",
       "time" : {
-        "start" : 1690751117268,
-        "stop" : 1690751117547,
-        "duration" : 279
+        "start" : 1690751884765,
+        "stop" : 1690751884953,
+        "duration" : 188
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,8 +65,8 @@
     }, {
       "name" : "Checking response status",
       "time" : {
-        "start" : 1690751117547,
-        "stop" : 1690751117547,
+        "start" : 1690751884953,
+        "stop" : 1690751884953,
         "duration" : 0
       },
       "status" : "passed",
@@ -80,8 +80,8 @@
     }, {
       "name" : "Checking tag",
       "time" : {
-        "start" : 1690751117547,
-        "stop" : 1690751117547,
+        "start" : 1690751884953,
+        "stop" : 1690751884953,
         "duration" : 0
       },
       "status" : "passed",
@@ -95,8 +95,8 @@
     }, {
       "name" : "Printing the result",
       "time" : {
-        "start" : 1690751117547,
-        "stop" : 1690751117547,
+        "start" : 1690751884953,
+        "stop" : 1690751884953,
         "duration" : 0
       },
       "status" : "passed",
@@ -133,7 +133,7 @@
     "value" : "test_memes"
   }, {
     "name" : "host",
-    "value" : "7ed94d9e10fd"
+    "value" : "2f47a452746a"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -152,7 +152,7 @@
   } ],
   "parameters" : [ {
     "name" : "meme_id",
-    "value" : "6"
+    "value" : "5"
   }, {
     "name" : "tag_c",
     "value" : "'fun'"
@@ -173,54 +173,62 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 6,
+        "passed" : 7,
         "unknown" : 0,
-        "total" : 6
+        "total" : 7
       },
       "items" : [ {
-        "uid" : "a50e057b6e70fdda",
+        "uid" : "e8dfaf8daf7741c9",
         "status" : "passed",
         "time" : {
-          "start" : 1690749613104,
-          "stop" : 1690749613391,
+          "start" : 1690751116981,
+          "stop" : 1690751117266,
+          "duration" : 285
+        }
+      }, {
+        "uid" : "38ef7b2184e4acab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690749612848,
+          "stop" : 1690749613101,
+          "duration" : 253
+        }
+      }, {
+        "uid" : "e7e57b54df460212",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690746389488,
+          "stop" : 1690746389775,
           "duration" : 287
         }
       }, {
-        "uid" : "5c20f19369aeea9",
+        "uid" : "ebe6c6e5eb08b1a8",
         "status" : "passed",
         "time" : {
-          "start" : 1690746389776,
-          "stop" : 1690746390072,
-          "duration" : 296
+          "start" : 1690743924313,
+          "stop" : 1690743924554,
+          "duration" : 241
         }
       }, {
-        "uid" : "89381fc28a2e336c",
+        "uid" : "4013480faf7ad5b",
         "status" : "passed",
         "time" : {
-          "start" : 1690743924557,
-          "stop" : 1690743924805,
-          "duration" : 248
+          "start" : 1690743509499,
+          "stop" : 1690743509746,
+          "duration" : 247
         }
       }, {
-        "uid" : "d2ed0826d471f165",
+        "uid" : "428123fabef303ab",
         "status" : "passed",
         "time" : {
-          "start" : 1690743509749,
-          "stop" : 1690743509994,
-          "duration" : 245
-        }
-      }, {
-        "uid" : "cbd8a67e881724a4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1690726492426,
-          "stop" : 1690726492601,
-          "duration" : 175
+          "start" : 1690726492242,
+          "stop" : 1690726492424,
+          "duration" : 182
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "a9c90833bd7743d2.json",
-  "parameterValues" : [ "6", "'fun'" ]
+  "source" : "8a8e9041593ef64e.json",
+  "parameterValues" : [ "5", "'fun'" ]
 }

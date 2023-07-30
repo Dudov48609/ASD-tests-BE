@@ -23,6 +23,17 @@
       "total" : 10
     }
   }, {
+    "uid" : "d20d9791a2ddfc3f55f2f2ea37213d99",
+    "name" : "Delete memes",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
     "uid" : "d49326cdb167dc7ca09809eef3726ece",
     "name" : "Change a meme",
     "statistic" : {
@@ -32,17 +43,6 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 2
-    }
-  }, {
-    "uid" : "d20d9791a2ddfc3f55f2f2ea37213d99",
-    "name" : "Delete memes",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 9,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 9
     }
   } ]
 }

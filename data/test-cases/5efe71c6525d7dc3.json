@@ -1,26 +1,24 @@
 {
-  "uid" : "d2a5fec7e06d1566",
+  "uid" : "5efe71c6525d7dc3",
   "name" : "Delete meme by id",
   "fullName" : "tests.test_memes#test_delete_a_meme",
-  "historyId" : "02ceabd4970e75afa280f9d99de62c45",
+  "historyId" : "b19c8978d94d4d8448f1d94647f2dd84",
   "time" : {
-    "start" : 1690751119346,
-    "stop" : 1690751119634,
-    "duration" : 288
+    "start" : 1690751886130,
+    "stop" : 1690751886350,
+    "duration" : 220
   },
   "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
   "descriptionHtml" : "<p>This test involves getting a meme by its id and conducting some checks afterwards</p>\n",
-  "status" : "skipped",
-  "statusMessage" : "Skipped: Skipping the test as the status code is 404.",
-  "statusTrace" : "('/usr/workspace/endpoints/DELETE_memes.py', 23, 'Skipped: Skipping the test as the status code is 404.')",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "auth_token",
     "time" : {
-      "start" : 1690751111289,
-      "stop" : 1690751111584,
-      "duration" : 295
+      "start" : 1690751881038,
+      "stop" : 1690751881233,
+      "duration" : 195
     },
     "status" : "passed",
     "steps" : [ ],
@@ -33,9 +31,9 @@
   }, {
     "name" : "base_url",
     "time" : {
-      "start" : 1690751111288,
-      "stop" : 1690751111289,
-      "duration" : 1
+      "start" : 1690751881038,
+      "stop" : 1690751881038,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -48,15 +46,13 @@
   } ],
   "testStage" : {
     "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
-    "status" : "skipped",
-    "statusMessage" : "Skipped: Skipping the test as the status code is 404.",
-    "statusTrace" : "('/usr/workspace/endpoints/DELETE_memes.py', 23, 'Skipped: Skipping the test as the status code is 404.')",
+    "status" : "passed",
     "steps" : [ {
       "name" : "Requesting DELETE endpoint",
       "time" : {
-        "start" : 1690751119346,
-        "stop" : 1690751119634,
-        "duration" : 288
+        "start" : 1690751886130,
+        "stop" : 1690751886350,
+        "duration" : 220
       },
       "status" : "passed",
       "steps" : [ ],
@@ -69,35 +65,63 @@
     }, {
       "name" : "Skip deleting if id is not in id range",
       "time" : {
-        "start" : 1690751119634,
-        "stop" : 1690751119634,
+        "start" : 1690751886350,
+        "stop" : 1690751886350,
         "duration" : 0
       },
-      "status" : "skipped",
-      "statusMessage" : "Skipped: Skipping the test as the status code is 404.\n",
-      "statusTrace" : "  File \"/usr/workspace/tests/test_memes.py\", line 101, in test_delete_a_meme\n    delete_meme.skip_404()\n  File \"/usr/workspace/endpoints/DELETE_memes.py\", line 23, in skip_404\n    pytest.skip(\"Skipping the test as the status code is 404.\")\n  File \"/usr/local/lib/python3.12/site-packages/_pytest/outcomes.py\", line 179, in skip\n    raise Skipped(msg=reason, allow_module_level=allow_module_level)\n",
+      "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : true,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : true
+      "hasContent" : false
+    }, {
+      "name" : "Checking response status",
+      "time" : {
+        "start" : 1690751886350,
+        "stop" : 1690751886350,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Printing the result",
+      "time" : {
+        "start" : 1690751886350,
+        "stop" : 1690751886350,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : true,
-    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
     "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "normal"
-  }, {
     "name" : "feature",
     "value" : "Delete memes"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
@@ -106,7 +130,7 @@
     "value" : "test_memes"
   }, {
     "name" : "host",
-    "value" : "7ed94d9e10fd"
+    "value" : "2f47a452746a"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -125,7 +149,7 @@
   } ],
   "parameters" : [ {
     "name" : "meme_id",
-    "value" : "1285"
+    "value" : "1294"
   } ],
   "links" : [ {
     "name" : "https://github.com/usr/project/memes/issues/12",
@@ -140,6 +164,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d2a5fec7e06d1566.json",
-  "parameterValues" : [ "1285" ]
+  "source" : "5efe71c6525d7dc3.json",
+  "parameterValues" : [ "1294" ]
 }

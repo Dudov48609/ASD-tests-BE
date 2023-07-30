@@ -1,12 +1,12 @@
 {
-  "uid" : "82a9dc5d56d1c9bc",
+  "uid" : "c266bccb4c25a8f8",
   "name" : "Create a meme",
   "fullName" : "tests.test_memes#test_create_a_meme",
-  "historyId" : "c11512ee80ff62c85295a4432bb7e416",
+  "historyId" : "8e7f819856cd76f9787cfdb294e67e8b",
   "time" : {
-    "start" : 1690751111585,
-    "stop" : 1690751111876,
-    "duration" : 291
+    "start" : 1690751882776,
+    "stop" : 1690751882963,
+    "duration" : 187
   },
   "description" : "This test involves creating 10 memes and conducting some checks afterwards",
   "descriptionHtml" : "<p>This test involves creating 10 memes and conducting some checks afterwards</p>\n",
@@ -14,10 +14,10 @@
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "infos",
+    "name" : "urls",
     "time" : {
-      "start" : 1690751111584,
-      "stop" : 1690751111584,
+      "start" : 1690751881233,
+      "stop" : 1690751881233,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,26 +29,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "auth_token",
+    "name" : "infos",
     "time" : {
-      "start" : 1690751111289,
-      "stop" : 1690751111584,
-      "duration" : 295
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "base_url",
-    "time" : {
-      "start" : 1690751111288,
-      "stop" : 1690751111289,
-      "duration" : 1
+      "start" : 1690751881234,
+      "stop" : 1690751881234,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -61,23 +46,8 @@
   }, {
     "name" : "tag",
     "time" : {
-      "start" : 1690751111584,
-      "stop" : 1690751111584,
-      "duration" : 0
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "urls",
-    "time" : {
-      "start" : 1690751111584,
-      "stop" : 1690751111584,
+      "start" : 1690751881234,
+      "stop" : 1690751881234,
       "duration" : 0
     },
     "status" : "passed",
@@ -91,8 +61,38 @@
   }, {
     "name" : "texts",
     "time" : {
-      "start" : 1690751111584,
-      "stop" : 1690751111584,
+      "start" : 1690751881233,
+      "stop" : 1690751881233,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1690751881038,
+      "stop" : 1690751881233,
+      "duration" : 195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1690751881038,
+      "stop" : 1690751881038,
       "duration" : 0
     },
     "status" : "passed",
@@ -110,9 +110,9 @@
     "steps" : [ {
       "name" : "Requesting POST endpoint with data",
       "time" : {
-        "start" : 1690751111585,
-        "stop" : 1690751111875,
-        "duration" : 290
+        "start" : 1690751882776,
+        "stop" : 1690751882963,
+        "duration" : 187
       },
       "status" : "passed",
       "steps" : [ ],
@@ -125,8 +125,8 @@
     }, {
       "name" : "Checking response status",
       "time" : {
-        "start" : 1690751111875,
-        "stop" : 1690751111875,
+        "start" : 1690751882963,
+        "stop" : 1690751882963,
         "duration" : 0
       },
       "status" : "passed",
@@ -140,8 +140,8 @@
     }, {
       "name" : "Check meme data (URL)",
       "time" : {
-        "start" : 1690751111875,
-        "stop" : 1690751111875,
+        "start" : 1690751882963,
+        "stop" : 1690751882963,
         "duration" : 0
       },
       "status" : "passed",
@@ -155,8 +155,8 @@
     }, {
       "name" : "Printing the result",
       "time" : {
-        "start" : 1690751111875,
-        "stop" : 1690751111875,
+        "start" : 1690751882963,
+        "stop" : 1690751882963,
         "duration" : 0
       },
       "status" : "passed",
@@ -190,7 +190,7 @@
     "value" : "test_memes"
   }, {
     "name" : "host",
-    "value" : "7ed94d9e10fd"
+    "value" : "2f47a452746a"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -209,7 +209,7 @@
   } ],
   "parameters" : [ {
     "name" : "repeat",
-    "value" : "0"
+    "value" : "8"
   }, {
     "name" : "urls_control",
     "value" : "'https://media.tenor.com/Kdw0KeHJMogAAAAd/will-you-please-come-home-randy-marsh.gif'"
@@ -230,54 +230,62 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 6,
+        "passed" : 7,
         "unknown" : 0,
-        "total" : 6
+        "total" : 7
       },
       "items" : [ {
-        "uid" : "13f05edb0b5d9226",
+        "uid" : "7eb3beaeeb3621ac",
         "status" : "passed",
         "time" : {
-          "start" : 1690749608712,
-          "stop" : 1690749608906,
-          "duration" : 194
+          "start" : 1690751113940,
+          "stop" : 1690751114231,
+          "duration" : 291
         }
       }, {
-        "uid" : "565a4c1a49bce984",
+        "uid" : "6d9f989a974d413f",
         "status" : "passed",
         "time" : {
-          "start" : 1690746384608,
-          "stop" : 1690746384905,
-          "duration" : 297
+          "start" : 1690749610514,
+          "stop" : 1690749610806,
+          "duration" : 292
         }
       }, {
-        "uid" : "b9f3bdac9eb4c666",
+        "uid" : "bfe74a346b6c50b4",
         "status" : "passed",
         "time" : {
-          "start" : 1690743920243,
-          "stop" : 1690743920482,
-          "duration" : 239
+          "start" : 1690746386961,
+          "stop" : 1690746387251,
+          "duration" : 290
         }
       }, {
-        "uid" : "66c03398f1210d3d",
+        "uid" : "75a58759986de243",
         "status" : "passed",
         "time" : {
-          "start" : 1690743505086,
-          "stop" : 1690743505343,
-          "duration" : 257
+          "start" : 1690743922209,
+          "stop" : 1690743922453,
+          "duration" : 244
         }
       }, {
-        "uid" : "b7a3b3e875fbee2e",
+        "uid" : "56e8877bff5ba3a4",
         "status" : "passed",
         "time" : {
-          "start" : 1690726489068,
-          "stop" : 1690726489252,
-          "duration" : 184
+          "start" : 1690743507177,
+          "stop" : 1690743507442,
+          "duration" : 265
+        }
+      }, {
+        "uid" : "d9699940b139bc75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690726490577,
+          "stop" : 1690726490757,
+          "duration" : 180
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "82a9dc5d56d1c9bc.json",
-  "parameterValues" : [ "0", "'https://media.tenor.com/Kdw0KeHJMogAAAAd/will-you-please-come-home-randy-marsh.gif'" ]
+  "source" : "c266bccb4c25a8f8.json",
+  "parameterValues" : [ "8", "'https://media.tenor.com/Kdw0KeHJMogAAAAd/will-you-please-come-home-randy-marsh.gif'" ]
 }
