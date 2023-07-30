@@ -3,7 +3,7 @@ name: BE Tests
 on: workflow_dispatch
 
 jobs:
-  ui-tests:
+  be-tests:
     runs-on: ubuntu-latest
 
     steps:
