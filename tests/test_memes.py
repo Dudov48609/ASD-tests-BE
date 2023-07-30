@@ -93,7 +93,7 @@ def test_get_a_meme_with_id(base_url, auth_token, meme_id, tag_c):
 @allure.feature('Delete memes')
 @allure.severity(allure.severity_level.NORMAL)
 @allure.description('This test involves getting a meme by its id and conducting some checks afterwards')
-@pytest.mark.parametrize('meme_id', range(1280, 1289))
+@pytest.mark.parametrize('meme_id', range(1290, 1299))
 def test_delete_a_meme(base_url, auth_token, meme_id):
     with allure.step('Requesting DELETE endpoint'):
         delete_meme = DeleteEnpoints(base_url, auth_token, meme_id)
