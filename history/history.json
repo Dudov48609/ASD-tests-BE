@@ -1,0 +1,728 @@
+{
+  "e7758be2c4c24fceab73d80428c70fc9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "25f923f65cec7be3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694717fb0>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694717fb0>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694717fb0>.is_response_200",
+      "time" : {
+        "start" : 1690726494976,
+        "stop" : 1690726495153,
+        "duration" : 177
+      }
+    } ]
+  },
+  "7e4927561e92f70017ae56b6b7bc2f92" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c21473817e9b09e4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc69418a7b0>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc69418a7b0>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc69418a7b0>.is_response_200",
+      "time" : {
+        "start" : 1690726495726,
+        "stop" : 1690726495903,
+        "duration" : 177
+      }
+    } ]
+  },
+  "f8e34ee019cb80cba1eaf45675f0152a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bb7b7168f1b36489",
+      "status" : "passed",
+      "time" : {
+        "start" : 1690726489624,
+        "stop" : 1690726489809,
+        "duration" : 185
+      }
+    } ]
+  },
+  "da2c30891f891a570d8445d2172bdc11" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "63b886e12acd8cfd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc6941891c0>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc6941891c0>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc6941891c0>.is_response_200",
+      "time" : {
+        "start" : 1690726496099,
+        "stop" : 1690726496284,
+        "duration" : 185
+      }
+    } ]
+  },
+  "8e7f819856cd76f9787cfdb294e67e8b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9699940b139bc75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1690726490577,
+        "stop" : 1690726490757,
+        "duration" : 180
+      }
+    } ]
+  },
+  "88a07c731e6daf20b258b077c14a8d19" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "42f443f8d41b2261",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694062300>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694062300>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694062300>.is_response_200",
+      "time" : {
+        "start" : 1690726492811,
+        "stop" : 1690726492993,
+        "duration" : 182
+      }
+    } ]
+  },
+  "97210dd2cb37801347060b7ae0628a56" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e306c8e67ef714f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
+      "time" : {
+        "start" : 1690726494617,
+        "stop" : 1690726494792,
+        "duration" : 175
+      }
+    } ]
+  },
+  "9c99faf5e94d91b6c762e73b9d574e00" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "345854060f80e761",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "time" : {
+        "start" : 1690726491182,
+        "stop" : 1690726491366,
+        "duration" : 184
+      }
+    } ]
+  },
+  "fa9ddde46ef589b9574f6acb4c8ff5c7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33f70381f14b1fe1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694060bf0>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694060bf0>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694060bf0>.is_response_200",
+      "time" : {
+        "start" : 1690726495159,
+        "stop" : 1690726495341,
+        "duration" : 182
+      }
+    } ]
+  },
+  "fd95db8f039369b38cfa6d45c5ffc75e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36d76d03e0cf3cbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1690726489812,
+        "stop" : 1690726489998,
+        "duration" : 186
+      }
+    } ]
+  },
+  "11504936ee3787dec664fd4f4864272f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "54feaedbfd688f9e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694188e30>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694188e30>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694188e30>.is_response_200",
+      "time" : {
+        "start" : 1690726496477,
+        "stop" : 1690726496660,
+        "duration" : 183
+      }
+    } ]
+  },
+  "3bd92102efa524f3e96f76f2278905c9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e75ac57d35de96cf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc6940611f0>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc6940611f0>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc6940611f0>.is_response_200",
+      "time" : {
+        "start" : 1690726493504,
+        "stop" : 1690726493688,
+        "duration" : 184
+      }
+    } ]
+  },
+  "b4fca8ba2800b91749ce3fee0c6e4b5c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "536fdc5eefa6d368",
+      "status" : "passed",
+      "time" : {
+        "start" : 1690726490760,
+        "stop" : 1690726490944,
+        "duration" : 184
+      }
+    } ]
+  },
+  "5e83ef9686ab1bff0e599bbf163f272f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cbd8a67e881724a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1690726492426,
+        "stop" : 1690726492601,
+        "duration" : 175
+      }
+    } ]
+  },
+  "2de5dbc925c4bd0387f21eb2469a112e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "428123fabef303ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1690726492242,
+        "stop" : 1690726492424,
+        "duration" : 182
+      }
+    } ]
+  },
+  "d0692606b94f8baea3d25d7e4f8cb7ae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1bb381c9f9d05c08",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
+      "time" : {
+        "start" : 1690726496666,
+        "stop" : 1690726496848,
+        "duration" : 182
+      }
+    } ]
+  },
+  "cd598079e951213b173544dbe58b2803" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ac90c5a26c66926",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "time" : {
+        "start" : 1690726492604,
+        "stop" : 1690726492779,
+        "duration" : 175
+      }
+    } ]
+  },
+  "c7e2f96d0528c106aa505bbbc47acd1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7af09c2fc408fb6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1690726489436,
+        "stop" : 1690726489621,
+        "duration" : 185
+      }
+    } ]
+  },
+  "82a05a31bfb186a281bb8b4900dac657" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b75dbebcbf383c7",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
+      "time" : {
+        "start" : 1690726494071,
+        "stop" : 1690726494247,
+        "duration" : 176
+      }
+    } ]
+  },
+  "5fa2354894e14119e9d553233234546d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "535b003a3db6c28f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc6941b76b0>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc6941b76b0>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc6941b76b0>.is_response_200",
+      "time" : {
+        "start" : 1690726492998,
+        "stop" : 1690726493497,
+        "duration" : 499
+      }
+    } ]
+  },
+  "e3337298fbd554cd7fcfc701fd4f6ceb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "96fcd4a4106cacd6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694060500>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694060500>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694060500>.is_response_200",
+      "time" : {
+        "start" : 1690726494794,
+        "stop" : 1690726494971,
+        "duration" : 177
+      }
+    } ]
+  },
+  "097efd38dd1a01a9ec7c3143360b717b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "128b39ec73818251",
+      "status" : "passed",
+      "time" : {
+        "start" : 1690726490183,
+        "stop" : 1690726490370,
+        "duration" : 187
+      }
+    } ]
+  },
+  "c6d45127a5838b448c223e3fa80cb9b4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "52664e46af140f28",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "time" : {
+        "start" : 1690726490946,
+        "stop" : 1690726491131,
+        "duration" : 185
+      }
+    } ]
+  },
+  "6808b931ec4b6c2c84fe01092121ecb2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d480f9760c2ef037",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc6941b4860>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc6941b4860>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc6941b4860>.is_response_200",
+      "time" : {
+        "start" : 1690726494435,
+        "stop" : 1690726494611,
+        "duration" : 176
+      }
+    } ]
+  },
+  "a408d0568e99006b50e3be9eb14ad0cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9ef54cd8b8d9e04c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1690726490001,
+        "stop" : 1690726490179,
+        "duration" : 178
+      }
+    } ]
+  },
+  "2d992af3bf584b913c6486d084d2f4ef" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b1b953f52f273694",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694060e60>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694060e60>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694060e60>.is_response_200",
+      "time" : {
+        "start" : 1690726493882,
+        "stop" : 1690726494066,
+        "duration" : 184
+      }
+    } ]
+  },
+  "987127042efddb8ea27e0633c876cbc8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5a4d58883aad87e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694065730>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694065730>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694065730>.is_response_200",
+      "time" : {
+        "start" : 1690726496289,
+        "stop" : 1690726496471,
+        "duration" : 182
+      }
+    } ]
+  },
+  "6f0952610539676ef41a234d7551e3a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "575b6cbb7d90f859",
+      "status" : "passed",
+      "time" : {
+        "start" : 1690726489255,
+        "stop" : 1690726489433,
+        "duration" : 178
+      }
+    } ]
+  },
+  "9a11440f96c4a8e8a2a311daf21a0c58" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6eea76634100f97a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1690726492064,
+        "stop" : 1690726492240,
+        "duration" : 176
+      }
+    } ]
+  },
+  "5c0f92b474b5729516a87993cc39b820" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "437940af10993135",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc693ff31d0>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc693ff31d0>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc693ff31d0>.is_response_200",
+      "time" : {
+        "start" : 1690726495347,
+        "stop" : 1690726495529,
+        "duration" : 182
+      }
+    } ]
+  },
+  "c957a92ff92f1a887508789f211898e3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a284ae15f007b45",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc693ff3a40>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc693ff3a40>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc693ff3a40>.is_response_200",
+      "time" : {
+        "start" : 1690726493694,
+        "stop" : 1690726493877,
+        "duration" : 183
+      }
+    } ]
+  },
+  "e2ec915dac5f955f7c245549c433480b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28cc0f58aaef9b7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1690726490372,
+        "stop" : 1690726490574,
+        "duration" : 202
+      }
+    } ]
+  },
+  "c11512ee80ff62c85295a4432bb7e416" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7a3b3e875fbee2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1690726489068,
+        "stop" : 1690726489252,
+        "duration" : 184
+      }
+    } ]
+  },
+  "17bf6152ab89f110e45110aeaa8ab3eb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "47c65e57d8b14bcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1690726491396,
+        "stop" : 1690726492062,
+        "duration" : 666
+      }
+    } ]
+  },
+  "d2a9b94ecb5a3b2bcae3b06ac20463a1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d8656c40ded714a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694061ac0>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694061ac0>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694061ac0>.is_response_200",
+      "time" : {
+        "start" : 1690726495534,
+        "stop" : 1690726495720,
+        "duration" : 186
+      }
+    } ]
+  },
+  "cae8918085fb2b00208747a9b705b9c7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "139b8e183c56f05",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected status code 200, but got 400\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694714c20>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694714c20>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7fc694714c20>.is_response_200",
+      "time" : {
+        "start" : 1690726495909,
+        "stop" : 1690726496092,
+        "duration" : 183
+      }
+    } ]
+  },
+  "fbad585ff4144d01ab73b16186296e8c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "38b52109f2ed167c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
+      "time" : {
+        "start" : 1690726494250,
+        "stop" : 1690726494433,
+        "duration" : 183
+      }
+    } ]
+  }
+}
