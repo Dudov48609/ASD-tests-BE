@@ -1,0 +1,165 @@
+{
+  "uid" : "deba2337e022fba4",
+  "name" : "Delete meme by id",
+  "fullName" : "tests.test_memes#test_delete_a_meme",
+  "historyId" : "fbad585ff4144d01ab73b16186296e8c",
+  "time" : {
+    "start" : 1690743511869,
+    "stop" : 1690743512130,
+    "duration" : 261
+  },
+  "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
+  "descriptionHtml" : "<p>This test involves getting a meme by its id and conducting some checks afterwards</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: Skipping the test as the status code is 404.",
+  "statusTrace" : "('/usr/workspace/endpoints/DELETE_memes.py', 23, 'Skipped: Skipping the test as the status code is 404.')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1690743504822,
+      "stop" : 1690743504822,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1690743504822,
+      "stop" : 1690743505084,
+      "duration" : 262
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
+    "status" : "skipped",
+    "statusMessage" : "Skipped: Skipping the test as the status code is 404.",
+    "statusTrace" : "('/usr/workspace/endpoints/DELETE_memes.py', 23, 'Skipped: Skipping the test as the status code is 404.')",
+    "steps" : [ {
+      "name" : "Requesting DELETE endpoint",
+      "time" : {
+        "start" : 1690743511869,
+        "stop" : 1690743512130,
+        "duration" : 261
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Skip deleting if id is not in id range",
+      "time" : {
+        "start" : 1690743512130,
+        "stop" : 1690743512130,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "statusMessage" : "Skipped: Skipping the test as the status code is 404.\n",
+      "statusTrace" : "  File \"/usr/workspace/tests/test_memes.py\", line 101, in test_delete_a_meme\n    delete_meme.skip_404()\n  File \"/usr/workspace/endpoints/DELETE_memes.py\", line 23, in skip_404\n    pytest.skip(\"Skipping the test as the status code is 404.\")\n  File \"/usr/local/lib/python3.12/site-packages/_pytest/outcomes.py\", line 179, in skip\n    raise Skipped(msg=reason, allow_module_level=allow_module_level)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Delete memes"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_memes"
+  }, {
+    "name" : "host",
+    "value" : "2934cdea82ff"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_memes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "meme_id",
+    "value" : "8"
+  } ],
+  "links" : [ {
+    "name" : "https://github.com/usr/project/memes/issues/12",
+    "url" : "https://github.com/usr/project/memes/issues/12",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "38b52109f2ed167c",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
+        "time" : {
+          "start" : 1690726494250,
+          "stop" : 1690726494433,
+          "duration" : 183
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "deba2337e022fba4.json",
+  "parameterValues" : [ "8" ]
+}
