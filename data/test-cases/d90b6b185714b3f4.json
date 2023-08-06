@@ -1,24 +1,24 @@
 {
-  "uid" : "5fc798ae96e24667",
-  "name" : "Change a meme",
-  "fullName" : "tests.test_memes#test_change_a_meme",
-  "historyId" : "7d5870b3db04ea4ac602c34e06b17252",
+  "uid" : "d90b6b185714b3f4",
+  "name" : "Get meme by id",
+  "fullName" : "tests.test_memes#test_get_a_meme_with_id",
+  "historyId" : "9a11440f96c4a8e8a2a311daf21a0c58",
   "time" : {
-    "start" : 1690751883531,
-    "stop" : 1690751883912,
-    "duration" : 381
+    "start" : 1691343975492,
+    "stop" : 1691343975678,
+    "duration" : 186
   },
-  "description" : "This test involves changing the memes and conducting some checks afterwards",
-  "descriptionHtml" : "<p>This test involves changing the memes and conducting some checks afterwards</p>\n",
+  "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
+  "descriptionHtml" : "<p>This test involves getting a meme by its id and conducting some checks afterwards</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "auth_token",
     "time" : {
-      "start" : 1690751881038,
-      "stop" : 1690751881233,
-      "duration" : 195
+      "start" : 1691343971757,
+      "stop" : 1691343971944,
+      "duration" : 187
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,8 +31,8 @@
   }, {
     "name" : "base_url",
     "time" : {
-      "start" : 1690751881038,
-      "stop" : 1690751881038,
+      "start" : 1691343971757,
+      "stop" : 1691343971757,
       "duration" : 0
     },
     "status" : "passed",
@@ -45,14 +45,14 @@
     "hasContent" : false
   } ],
   "testStage" : {
-    "description" : "This test involves changing the memes and conducting some checks afterwards",
+    "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Requesting PUT endpoint with new data",
+      "name" : "Requesting GET endpoint with tag_control",
       "time" : {
-        "start" : 1690751883531,
-        "stop" : 1690751883722,
-        "duration" : 191
+        "start" : 1691343975492,
+        "stop" : 1691343975678,
+        "duration" : 186
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,8 +65,8 @@
     }, {
       "name" : "Checking response status",
       "time" : {
-        "start" : 1690751883722,
-        "stop" : 1690751883722,
+        "start" : 1691343975678,
+        "stop" : 1691343975678,
         "duration" : 0
       },
       "status" : "passed",
@@ -78,25 +78,10 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Requesting GET endpoint with meme_id",
+      "name" : "Checking tag",
       "time" : {
-        "start" : 1690751883722,
-        "stop" : 1690751883912,
-        "duration" : 190
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Comparing result of changing data",
-      "time" : {
-        "start" : 1690751883912,
-        "stop" : 1690751883912,
+        "start" : 1691343975678,
+        "stop" : 1691343975678,
         "duration" : 0
       },
       "status" : "passed",
@@ -110,23 +95,8 @@
     }, {
       "name" : "Printing the result",
       "time" : {
-        "start" : 1690751883912,
-        "stop" : 1690751883912,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Printing GET response",
-      "time" : {
-        "start" : 1690751883912,
-        "stop" : 1690751883912,
+        "start" : 1691343975678,
+        "stop" : 1691343975678,
         "duration" : 0
       },
       "status" : "passed",
@@ -142,16 +112,19 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 6,
+    "stepsCount" : 4,
     "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "Change a meme"
+    "value" : "Get memes"
   }, {
     "name" : "severity",
-    "value" : "normal"
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Get by id"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
@@ -160,7 +133,7 @@
     "value" : "test_memes"
   }, {
     "name" : "host",
-    "value" : "2f47a452746a"
+    "value" : "624a44c222d0"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -179,17 +152,20 @@
   } ],
   "parameters" : [ {
     "name" : "meme_id",
-    "value" : "1271"
+    "value" : "4"
+  }, {
+    "name" : "tag_c",
+    "value" : "'fun'"
   } ],
   "links" : [ {
-    "name" : "https://github.com/usr/project/memes/issues/22",
-    "url" : "https://github.com/usr/project/memes/issues/22",
+    "name" : "https://github.com/usr/project/memes/issues/99",
+    "url" : "https://github.com/usr/project/memes/issues/99",
     "type" : "issue"
   } ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "normal",
+    "severity" : "blocker",
     "retries" : [ ],
     "categories" : [ ],
     "history" : {
@@ -197,22 +173,70 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 8,
         "unknown" : 0,
-        "total" : 2
+        "total" : 8
       },
       "items" : [ {
-        "uid" : "e3ca6b26996c10fe",
+        "uid" : "28d83cca948ef019",
         "status" : "passed",
         "time" : {
-          "start" : 1690751115111,
-          "stop" : 1690751115688,
-          "duration" : 577
+          "start" : 1690751884575,
+          "stop" : 1690751884763,
+          "duration" : 188
+        }
+      }, {
+        "uid" : "d5d25c64cb051951",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690751116690,
+          "stop" : 1690751116979,
+          "duration" : 289
+        }
+      }, {
+        "uid" : "c8cf65cf7038be93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690749612565,
+          "stop" : 1690749612846,
+          "duration" : 281
+        }
+      }, {
+        "uid" : "1437f4bdb7aa2a9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690746389199,
+          "stop" : 1690746389486,
+          "duration" : 287
+        }
+      }, {
+        "uid" : "be45620d265fcbc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690743924077,
+          "stop" : 1690743924311,
+          "duration" : 234
+        }
+      }, {
+        "uid" : "556e35ff65cd85ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690743509238,
+          "stop" : 1690743509495,
+          "duration" : 257
+        }
+      }, {
+        "uid" : "6eea76634100f97a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690726492064,
+          "stop" : 1690726492240,
+          "duration" : 176
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "5fc798ae96e24667.json",
-  "parameterValues" : [ "1271" ]
+  "source" : "d90b6b185714b3f4.json",
+  "parameterValues" : [ "4", "'fun'" ]
 }

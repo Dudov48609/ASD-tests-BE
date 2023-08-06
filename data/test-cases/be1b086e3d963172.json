@@ -1,12 +1,12 @@
 {
-  "uid" : "645510961d98a973",
-  "name" : "Delete meme by id",
-  "fullName" : "tests.test_memes#test_delete_a_meme",
-  "historyId" : "f40fb5119643a7b9d1e06c7f422825b8",
+  "uid" : "be1b086e3d963172",
+  "name" : "Get meme by id",
+  "fullName" : "tests.test_memes#test_get_a_meme_with_id",
+  "historyId" : "5e83ef9686ab1bff0e599bbf163f272f",
   "time" : {
-    "start" : 1690751886732,
-    "stop" : 1690751886922,
-    "duration" : 190
+    "start" : 1691343975868,
+    "stop" : 1691343976055,
+    "duration" : 187
   },
   "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
   "descriptionHtml" : "<p>This test involves getting a meme by its id and conducting some checks afterwards</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "auth_token",
     "time" : {
-      "start" : 1690751881038,
-      "stop" : 1690751881233,
-      "duration" : 195
+      "start" : 1691343971757,
+      "stop" : 1691343971944,
+      "duration" : 187
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,8 +31,8 @@
   }, {
     "name" : "base_url",
     "time" : {
-      "start" : 1690751881038,
-      "stop" : 1690751881038,
+      "start" : 1691343971757,
+      "stop" : 1691343971757,
       "duration" : 0
     },
     "status" : "passed",
@@ -48,26 +48,11 @@
     "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Requesting DELETE endpoint",
+      "name" : "Requesting GET endpoint with tag_control",
       "time" : {
-        "start" : 1690751886732,
-        "stop" : 1690751886922,
-        "duration" : 190
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
-    }, {
-      "name" : "Skip deleting if id is not in id range",
-      "time" : {
-        "start" : 1690751886922,
-        "stop" : 1690751886922,
-        "duration" : 0
+        "start" : 1691343975868,
+        "stop" : 1691343976055,
+        "duration" : 187
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,8 +65,23 @@
     }, {
       "name" : "Checking response status",
       "time" : {
-        "start" : 1690751886922,
-        "stop" : 1690751886922,
+        "start" : 1691343976055,
+        "stop" : 1691343976055,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Checking tag",
+      "time" : {
+        "start" : 1691343976055,
+        "stop" : 1691343976055,
         "duration" : 0
       },
       "status" : "passed",
@@ -95,8 +95,8 @@
     }, {
       "name" : "Printing the result",
       "time" : {
-        "start" : 1690751886922,
-        "stop" : 1690751886922,
+        "start" : 1691343976055,
+        "stop" : 1691343976055,
         "duration" : 0
       },
       "status" : "passed",
@@ -118,10 +118,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "feature",
-    "value" : "Delete memes"
+    "value" : "Get memes"
   }, {
     "name" : "severity",
-    "value" : "normal"
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Get by id"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
@@ -130,7 +133,7 @@
     "value" : "test_memes"
   }, {
     "name" : "host",
-    "value" : "2f47a452746a"
+    "value" : "624a44c222d0"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -149,21 +152,91 @@
   } ],
   "parameters" : [ {
     "name" : "meme_id",
-    "value" : "1297"
+    "value" : "6"
+  }, {
+    "name" : "tag_c",
+    "value" : "'fun'"
   } ],
   "links" : [ {
-    "name" : "https://github.com/usr/project/memes/issues/12",
-    "url" : "https://github.com/usr/project/memes/issues/12",
+    "name" : "https://github.com/usr/project/memes/issues/99",
+    "url" : "https://github.com/usr/project/memes/issues/99",
     "type" : "issue"
   } ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "normal",
+    "severity" : "blocker",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "dd8cf5bf1e1de2b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690751884955,
+          "stop" : 1690751885139,
+          "duration" : 184
+        }
+      }, {
+        "uid" : "a9c90833bd7743d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690751117268,
+          "stop" : 1690751117547,
+          "duration" : 279
+        }
+      }, {
+        "uid" : "a50e057b6e70fdda",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690749613104,
+          "stop" : 1690749613391,
+          "duration" : 287
+        }
+      }, {
+        "uid" : "5c20f19369aeea9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690746389776,
+          "stop" : 1690746390072,
+          "duration" : 296
+        }
+      }, {
+        "uid" : "89381fc28a2e336c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690743924557,
+          "stop" : 1690743924805,
+          "duration" : 248
+        }
+      }, {
+        "uid" : "d2ed0826d471f165",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690743509749,
+          "stop" : 1690743509994,
+          "duration" : 245
+        }
+      }, {
+        "uid" : "cbd8a67e881724a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690726492426,
+          "stop" : 1690726492601,
+          "duration" : 175
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "645510961d98a973.json",
-  "parameterValues" : [ "1297" ]
+  "source" : "be1b086e3d963172.json",
+  "parameterValues" : [ "6", "'fun'" ]
 }

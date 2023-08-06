@@ -6,13 +6,13 @@
       "name" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
       "children" : [ {
         "name" : "Get meme by id",
-        "uid" : "c6f4c1dc3982ba81",
+        "uid" : "7a19abc796609686",
         "parentUid" : "0deff55915d4c9ebc746eac29285817c",
         "status" : "broken",
         "time" : {
-          "start" : 1690751885141,
-          "stop" : 1690751885332,
-          "duration" : 191
+          "start" : 1691343976057,
+          "stop" : 1691343976242,
+          "duration" : 185
         },
         "flaky" : false,
         "newFailed" : false,

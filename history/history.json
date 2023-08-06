@@ -100,11 +100,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "8639e65963c7ed60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691343972519,
+        "stop" : 1691343972709,
+        "duration" : 190
+      }
+    }, {
       "uid" : "d2678494f3e3d218",
       "status" : "passed",
       "time" : {
@@ -279,11 +287,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "2fd130727f3f2011",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691343972711,
+        "stop" : 1691343972903,
+        "duration" : 192
+      }
+    }, {
       "uid" : "ec907319a957cae2",
       "status" : "passed",
       "time" : {
@@ -365,12 +381,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "4e9faa7d7e4a10b6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
+      "time" : {
+        "start" : 1691343977426,
+        "stop" : 1691343977612,
+        "duration" : 186
+      }
+    }, {
       "uid" : "8fdff6fcb1a10dd2",
       "status" : "passed",
       "time" : {
@@ -405,11 +430,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "41e2f2dbbe1d808d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691343973675,
+        "stop" : 1691343973863,
+        "duration" : 188
+      }
+    }, {
       "uid" : "841b3ca85409aeab",
       "status" : "passed",
       "time" : {
@@ -491,12 +524,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f23f2d86ba21f9c6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
+      "time" : {
+        "start" : 1691343976483,
+        "stop" : 1691343976667,
+        "duration" : 184
+      }
+    }, {
       "uid" : "7ac6fdd63b33cf08",
       "status" : "passed",
       "time" : {
@@ -566,12 +608,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "dbbdb4c08e40459f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
+      "time" : {
+        "start" : 1691343977803,
+        "stop" : 1691343977988,
+        "duration" : 185
+      }
+    }, {
       "uid" : "65bb2cdfee60757e",
       "status" : "passed",
       "time" : {
@@ -585,12 +636,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "aabd4199540efb69",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
+      "time" : {
+        "start" : 1691343977047,
+        "stop" : 1691343977235,
+        "duration" : 188
+      }
+    }, {
       "uid" : "5efe71c6525d7dc3",
       "status" : "passed",
       "time" : {
@@ -605,11 +665,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "c8f74b80c551cea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691343972331,
+        "stop" : 1691343972517,
+        "duration" : 186
+      }
+    }, {
       "uid" : "23ea2a480a1c5664",
       "status" : "passed",
       "time" : {
@@ -727,12 +795,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d8bc228f76513ea6",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
+      "time" : {
+        "start" : 1691343977614,
+        "stop" : 1691343977801,
+        "duration" : 187
+      }
+    }, {
       "uid" : "645510961d98a973",
       "status" : "passed",
       "time" : {
@@ -879,11 +956,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "8625b7504b012aef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691343972905,
+        "stop" : 1691343973096,
+        "duration" : 191
+      }
+    }, {
       "uid" : "4eff1838658209c2",
       "status" : "passed",
       "time" : {
@@ -946,11 +1031,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "1b74e98eba83e1e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691343972136,
+        "stop" : 1691343972328,
+        "duration" : 192
+      }
+    }, {
       "uid" : "150474a256698a97",
       "status" : "passed",
       "time" : {
@@ -1089,11 +1182,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "f386a4ea7c7ba6cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691343973291,
+        "stop" : 1691343973478,
+        "duration" : 187
+      }
+    }, {
       "uid" : "a3fda7c75b3363b7",
       "status" : "passed",
       "time" : {
@@ -1156,11 +1257,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "80a1f18f42e303e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691343971945,
+        "stop" : 1691343972134,
+        "duration" : 189
+      }
+    }, {
       "uid" : "b8adf8dce5c4be8c",
       "status" : "passed",
       "time" : {
@@ -1223,11 +1332,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "632a1216a659a4c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691343974614,
+        "stop" : 1691343975490,
+        "duration" : 876
+      }
+    }, {
       "uid" : "8f668ba073aad70b",
       "status" : "passed",
       "time" : {
@@ -1346,11 +1463,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "569d25d5daa1e330",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691343973480,
+        "stop" : 1691343973671,
+        "duration" : 191
+      }
+    }, {
       "uid" : "c266bccb4c25a8f8",
       "status" : "passed",
       "time" : {
@@ -1636,12 +1761,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "9ff67d2468385ac2",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
+      "time" : {
+        "start" : 1691343977237,
+        "stop" : 1691343977423,
+        "duration" : 186
+      }
+    }, {
       "uid" : "1016271ee08dace8",
       "status" : "passed",
       "time" : {
@@ -1752,11 +1886,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "be1b086e3d963172",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691343975868,
+        "stop" : 1691343976055,
+        "duration" : 187
+      }
+    }, {
       "uid" : "dd8cf5bf1e1de2b2",
       "status" : "passed",
       "time" : {
@@ -1818,12 +1960,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f6b3a38aec865a02",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
+      "time" : {
+        "start" : 1691343976294,
+        "stop" : 1691343976480,
+        "duration" : 186
+      }
+    }, {
       "uid" : "7da7047594939f5d",
       "status" : "passed",
       "time" : {
@@ -1837,12 +1988,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c0aba8ab22ae0594",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
+      "time" : {
+        "start" : 1691343976669,
+        "stop" : 1691343976856,
+        "duration" : 187
+      }
+    }, {
       "uid" : "93af94496253a66b",
       "status" : "passed",
       "time" : {
@@ -1857,11 +2017,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "3f895916f6a49ca8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691343975680,
+        "stop" : 1691343975865,
+        "duration" : 185
+      }
+    }, {
       "uid" : "8a8e9041593ef64e",
       "status" : "passed",
       "time" : {
@@ -1922,13 +2090,22 @@
   "cd598079e951213b173544dbe58b2803" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 7,
+      "broken" : 8,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "7a19abc796609686",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "time" : {
+        "start" : 1691343976057,
+        "stop" : 1691343976242,
+        "duration" : 185
+      }
+    }, {
       "uid" : "c6f4c1dc3982ba81",
       "status" : "broken",
       "statusDetails" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
@@ -2054,11 +2231,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "bc185e2b989e855c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691343973098,
+        "stop" : 1691343973288,
+        "duration" : 190
+      }
+    }, {
       "uid" : "38f2bacc159775ef",
       "status" : "passed",
       "time" : {
@@ -2120,12 +2305,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "9295f110564ed5a8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: Skipping the test as the status code is 404.",
+      "time" : {
+        "start" : 1691343976859,
+        "stop" : 1691343977045,
+        "duration" : 186
+      }
+    }, {
       "uid" : "6bde2ec2a0f276e4",
       "status" : "passed",
       "time" : {
@@ -2308,11 +2502,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "dab3be78b8ded39f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691343973865,
+        "stop" : 1691343974235,
+        "duration" : 370
+      }
+    }, {
       "uid" : "de354d015f7944b8",
       "status" : "passed",
       "time" : {
@@ -2335,11 +2537,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "d90b6b185714b3f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691343975492,
+        "stop" : 1691343975678,
+        "duration" : 186
+      }
+    }, {
       "uid" : "28d83cca948ef019",
       "status" : "passed",
       "time" : {
@@ -2458,11 +2668,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "21bee4582c6a9f96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691343974238,
+        "stop" : 1691343974612,
+        "duration" : 374
+      }
+    }, {
       "uid" : "5fc798ae96e24667",
       "status" : "passed",
       "time" : {

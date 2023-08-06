@@ -1,12 +1,12 @@
 {
-  "uid" : "8f668ba073aad70b",
+  "uid" : "632a1216a659a4c0",
   "name" : "Get all memes",
   "fullName" : "tests.test_memes#test_get_a_meme_without_id",
   "historyId" : "17bf6152ab89f110e45110aeaa8ab3eb",
   "time" : {
-    "start" : 1690751883915,
-    "stop" : 1690751884573,
-    "duration" : 658
+    "start" : 1691343974614,
+    "stop" : 1691343975490,
+    "duration" : 876
   },
   "description" : "This test involves getting all memes and conducting some checks afterwards",
   "descriptionHtml" : "<p>This test involves getting all memes and conducting some checks afterwards</p>\n",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "auth_token",
     "time" : {
-      "start" : 1690751881038,
-      "stop" : 1690751881233,
-      "duration" : 195
+      "start" : 1691343971757,
+      "stop" : 1691343971944,
+      "duration" : 187
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,8 +31,8 @@
   }, {
     "name" : "base_url",
     "time" : {
-      "start" : 1690751881038,
-      "stop" : 1690751881038,
+      "start" : 1691343971757,
+      "stop" : 1691343971757,
       "duration" : 0
     },
     "status" : "passed",
@@ -50,9 +50,9 @@
     "steps" : [ {
       "name" : "Requesting GET endpoint with tag_control",
       "time" : {
-        "start" : 1690751883915,
-        "stop" : 1690751884571,
-        "duration" : 656
+        "start" : 1691343974614,
+        "stop" : 1691343975486,
+        "duration" : 872
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,8 +65,8 @@
     }, {
       "name" : "Checking response status",
       "time" : {
-        "start" : 1690751884571,
-        "stop" : 1690751884571,
+        "start" : 1691343975486,
+        "stop" : 1691343975486,
         "duration" : 0
       },
       "status" : "passed",
@@ -80,8 +80,8 @@
     }, {
       "name" : "Checking tag",
       "time" : {
-        "start" : 1690751884571,
-        "stop" : 1690751884571,
+        "start" : 1691343975486,
+        "stop" : 1691343975486,
         "duration" : 0
       },
       "status" : "passed",
@@ -95,9 +95,9 @@
     }, {
       "name" : "Printing the result",
       "time" : {
-        "start" : 1690751884571,
-        "stop" : 1690751884573,
-        "duration" : 2
+        "start" : 1691343975486,
+        "stop" : 1691343975489,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -117,14 +117,14 @@
   },
   "afterStages" : [ ],
   "labels" : [ {
-    "name" : "story",
-    "value" : "Get all"
+    "name" : "feature",
+    "value" : "Get memes"
   }, {
     "name" : "severity",
     "value" : "minor"
   }, {
-    "name" : "feature",
-    "value" : "Get memes"
+    "name" : "story",
+    "value" : "Get all"
   }, {
     "name" : "parentSuite",
     "value" : "tests"
@@ -133,7 +133,7 @@
     "value" : "test_memes"
   }, {
     "name" : "host",
-    "value" : "2f47a452746a"
+    "value" : "624a44c222d0"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -170,11 +170,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 7,
+        "passed" : 8,
         "unknown" : 0,
-        "total" : 7
+        "total" : 8
       },
       "items" : [ {
+        "uid" : "8f668ba073aad70b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690751883915,
+          "stop" : 1690751884573,
+          "duration" : 658
+        }
+      }, {
         "uid" : "5b0858be206ff4a3",
         "status" : "passed",
         "time" : {
@@ -226,6 +234,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "8f668ba073aad70b.json",
+  "source" : "632a1216a659a4c0.json",
   "parameterValues" : [ "'fun'" ]
 }
