@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-      "children" : [ {
-        "name" : "Get meme by id",
-        "uid" : "7a19abc796609686",
-        "parentUid" : "0deff55915d4c9ebc746eac29285817c",
-        "status" : "broken",
-        "time" : {
-          "start" : 1691343976057,
-          "stop" : 1691343976242,
-          "duration" : 185
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "7", "'fun'" ]
-      } ],
-      "uid" : "0deff55915d4c9ebc746eac29285817c"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }
