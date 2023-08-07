@@ -1,13 +1,13 @@
 {
   "total" : 4,
   "items" : [ {
-    "uid" : "dbb5648867375fd32413075fa29ce9ae",
-    "name" : "Create a meme",
+    "uid" : "d20d9791a2ddfc3f55f2f2ea37213d99",
+    "name" : "Delete memes",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 10,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 10
     }
@@ -16,15 +16,15 @@
     "name" : "Change a meme",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 10,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 10
     }
   }, {
-    "uid" : "d20d9791a2ddfc3f55f2f2ea37213d99",
-    "name" : "Delete memes",
+    "uid" : "dbb5648867375fd32413075fa29ce9ae",
+    "name" : "Create a meme",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
