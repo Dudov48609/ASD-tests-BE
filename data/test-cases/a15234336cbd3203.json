@@ -1,0 +1,192 @@
+{
+  "uid" : "a15234336cbd3203",
+  "name" : "Delete meme by id",
+  "fullName" : "tests.test_memes#test_delete_a_meme",
+  "historyId" : "ae5f1256e16569144dae21a9ebfa655f",
+  "time" : {
+    "start" : 1691441380424,
+    "stop" : 1691441380614,
+    "duration" : 190
+  },
+  "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
+  "descriptionHtml" : "<p>This test involves getting a meme by its id and conducting some checks afterwards</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Expected status code 200, but got 404\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f79a2071550>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f79a2071550>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f79a2071550>.is_response_200",
+  "statusTrace" : "base_url = 'http://167.172.172.115:52355', auth_token = 'QIDL2q8VL23TFB3'\nmeme_id = 2879\n\n    @allure.issue('https://github.com/usr/project/memes/issues/12')\n    @allure.title('Delete meme by id')\n    @allure.feature('Delete memes')\n    @allure.severity(allure.severity_level.NORMAL)\n    @allure.description('This test involves getting a meme by its id and conducting some checks afterwards')\n    @pytest.mark.parametrize('meme_id', data_list)\n    def test_delete_a_meme(base_url, auth_token, meme_id):\n        with allure.step('Requesting DELETE endpoint'):\n            delete_meme = DeleteEnpoints(base_url, auth_token, meme_id)\n        with allure.step('Checking response status'):\n>           assert delete_meme.is_response_200(), f\"Expected status code 200, but got {delete_meme.status_code}\"\nE           AssertionError: Expected status code 200, but got 404\nE           assert False\nE            +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f79a2071550>>()\nE            +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f79a2071550>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f79a2071550>.is_response_200\n\ntests/test_memes.py:138: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1691441355961,
+      "stop" : 1691441355961,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1691441355961,
+      "stop" : 1691441356156,
+      "duration" : 195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Expected status code 200, but got 404\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f79a2071550>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f79a2071550>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f79a2071550>.is_response_200",
+    "statusTrace" : "base_url = 'http://167.172.172.115:52355', auth_token = 'QIDL2q8VL23TFB3'\nmeme_id = 2879\n\n    @allure.issue('https://github.com/usr/project/memes/issues/12')\n    @allure.title('Delete meme by id')\n    @allure.feature('Delete memes')\n    @allure.severity(allure.severity_level.NORMAL)\n    @allure.description('This test involves getting a meme by its id and conducting some checks afterwards')\n    @pytest.mark.parametrize('meme_id', data_list)\n    def test_delete_a_meme(base_url, auth_token, meme_id):\n        with allure.step('Requesting DELETE endpoint'):\n            delete_meme = DeleteEnpoints(base_url, auth_token, meme_id)\n        with allure.step('Checking response status'):\n>           assert delete_meme.is_response_200(), f\"Expected status code 200, but got {delete_meme.status_code}\"\nE           AssertionError: Expected status code 200, but got 404\nE           assert False\nE            +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f79a2071550>>()\nE            +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f79a2071550>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f79a2071550>.is_response_200\n\ntests/test_memes.py:138: AssertionError",
+    "steps" : [ {
+      "name" : "Requesting DELETE endpoint",
+      "time" : {
+        "start" : 1691441380424,
+        "stop" : 1691441380613,
+        "duration" : 189
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Checking response status",
+      "time" : {
+        "start" : 1691441380613,
+        "stop" : 1691441380613,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Expected status code 200, but got 404\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f79a2071550>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f79a2071550>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f79a2071550>.is_response_200\n",
+      "statusTrace" : "  File \"/usr/workspace/tests/test_memes.py\", line 138, in test_delete_a_meme\n    assert delete_meme.is_response_200(), f\"Expected status code 200, but got {delete_meme.status_code}\"\n",
+      "steps" : [ {
+        "name" : "Checking response status",
+        "time" : {
+          "start" : 1691441380613,
+          "stop" : 1691441380613,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Delete memes"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_memes"
+  }, {
+    "name" : "host",
+    "value" : "dc1be0d9c557"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_memes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "meme_id",
+    "value" : "2879"
+  } ],
+  "links" : [ {
+    "name" : "https://github.com/usr/project/memes/issues/12",
+    "url" : "https://github.com/usr/project/memes/issues/12",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "5753381542448237",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected status code 200, but got 404\nassert False\n +  where False = <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f51dc947e00>>()\n +    where <bound method EndpointMainRules.is_response_200 of <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f51dc947e00>> = <endpoints.DELETE_memes.DeleteEnpoints object at 0x7f51dc947e00>.is_response_200",
+        "time" : {
+          "start" : 1691441119771,
+          "stop" : 1691441120013,
+          "duration" : 242
+        }
+      }, {
+        "uid" : "541be3982a92acc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1691440729811,
+          "stop" : 1691440730105,
+          "duration" : 294
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a15234336cbd3203.json",
+  "parameterValues" : [ "2879" ]
+}

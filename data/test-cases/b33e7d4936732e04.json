@@ -1,0 +1,952 @@
+{
+  "uid" : "b33e7d4936732e04",
+  "name" : "Get meme by id",
+  "fullName" : "tests.test_memes#test_get_a_meme_with_id",
+  "historyId" : "a93b4c4fdc8a99364ea6b6c1c95cc495",
+  "time" : {
+    "start" : 1691441364915,
+    "stop" : 1691441366792,
+    "duration" : 1877
+  },
+  "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
+  "descriptionHtml" : "<p>This test involves getting a meme by its id and conducting some checks afterwards</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1691441355961,
+      "stop" : 1691441355961,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1691441355961,
+      "stop" : 1691441356156,
+      "duration" : 195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Requesting GET endpoint with tag_control",
+      "time" : {
+        "start" : 1691441364916,
+        "stop" : 1691441365097,
+        "duration" : 181
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Checking response status",
+      "time" : {
+        "start" : 1691441365097,
+        "stop" : 1691441365097,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Checking response status",
+        "time" : {
+          "start" : 1691441365097,
+          "stop" : 1691441365097,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Checking tag",
+      "time" : {
+        "start" : 1691441365097,
+        "stop" : 1691441365097,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Printing the result",
+      "time" : {
+        "start" : 1691441365097,
+        "stop" : 1691441365098,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ffd10a17ec9c8c5",
+        "name" : "Response Data",
+        "source" : "5ffd10a17ec9c8c5.json",
+        "type" : "application/json",
+        "size" : 291
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Requesting GET endpoint with tag_control",
+      "time" : {
+        "start" : 1691441365098,
+        "stop" : 1691441365285,
+        "duration" : 187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Checking response status",
+      "time" : {
+        "start" : 1691441365285,
+        "stop" : 1691441365285,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Checking response status",
+        "time" : {
+          "start" : 1691441365285,
+          "stop" : 1691441365285,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Checking tag",
+      "time" : {
+        "start" : 1691441365285,
+        "stop" : 1691441365285,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Printing the result",
+      "time" : {
+        "start" : 1691441365286,
+        "stop" : 1691441365286,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "89f32315e250f5a8",
+        "name" : "Response Data",
+        "source" : "89f32315e250f5a8.json",
+        "type" : "application/json",
+        "size" : 291
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Requesting GET endpoint with tag_control",
+      "time" : {
+        "start" : 1691441365286,
+        "stop" : 1691441365470,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Checking response status",
+      "time" : {
+        "start" : 1691441365470,
+        "stop" : 1691441365470,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Checking response status",
+        "time" : {
+          "start" : 1691441365470,
+          "stop" : 1691441365470,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Checking tag",
+      "time" : {
+        "start" : 1691441365470,
+        "stop" : 1691441365470,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Printing the result",
+      "time" : {
+        "start" : 1691441365470,
+        "stop" : 1691441365471,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e1ade94dc9bbc60e",
+        "name" : "Response Data",
+        "source" : "e1ade94dc9bbc60e.json",
+        "type" : "application/json",
+        "size" : 291
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Requesting GET endpoint with tag_control",
+      "time" : {
+        "start" : 1691441365471,
+        "stop" : 1691441365660,
+        "duration" : 189
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Checking response status",
+      "time" : {
+        "start" : 1691441365660,
+        "stop" : 1691441365660,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Checking response status",
+        "time" : {
+          "start" : 1691441365660,
+          "stop" : 1691441365660,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Checking tag",
+      "time" : {
+        "start" : 1691441365660,
+        "stop" : 1691441365660,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Printing the result",
+      "time" : {
+        "start" : 1691441365660,
+        "stop" : 1691441365660,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bf09d95738c63372",
+        "name" : "Response Data",
+        "source" : "bf09d95738c63372.json",
+        "type" : "application/json",
+        "size" : 291
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Requesting GET endpoint with tag_control",
+      "time" : {
+        "start" : 1691441365660,
+        "stop" : 1691441365850,
+        "duration" : 190
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Checking response status",
+      "time" : {
+        "start" : 1691441365850,
+        "stop" : 1691441365850,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Checking response status",
+        "time" : {
+          "start" : 1691441365850,
+          "stop" : 1691441365850,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Checking tag",
+      "time" : {
+        "start" : 1691441365850,
+        "stop" : 1691441365850,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Printing the result",
+      "time" : {
+        "start" : 1691441365850,
+        "stop" : 1691441365850,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "76c09cf79e438128",
+        "name" : "Response Data",
+        "source" : "76c09cf79e438128.json",
+        "type" : "application/json",
+        "size" : 291
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Requesting GET endpoint with tag_control",
+      "time" : {
+        "start" : 1691441365850,
+        "stop" : 1691441366033,
+        "duration" : 183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Checking response status",
+      "time" : {
+        "start" : 1691441366033,
+        "stop" : 1691441366033,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Checking response status",
+        "time" : {
+          "start" : 1691441366033,
+          "stop" : 1691441366033,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Checking tag",
+      "time" : {
+        "start" : 1691441366033,
+        "stop" : 1691441366033,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Printing the result",
+      "time" : {
+        "start" : 1691441366033,
+        "stop" : 1691441366033,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4ea4036bc3e62e86",
+        "name" : "Response Data",
+        "source" : "4ea4036bc3e62e86.json",
+        "type" : "application/json",
+        "size" : 291
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Requesting GET endpoint with tag_control",
+      "time" : {
+        "start" : 1691441366033,
+        "stop" : 1691441366223,
+        "duration" : 190
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Checking response status",
+      "time" : {
+        "start" : 1691441366223,
+        "stop" : 1691441366223,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Checking response status",
+        "time" : {
+          "start" : 1691441366223,
+          "stop" : 1691441366223,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Checking tag",
+      "time" : {
+        "start" : 1691441366223,
+        "stop" : 1691441366223,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Printing the result",
+      "time" : {
+        "start" : 1691441366223,
+        "stop" : 1691441366223,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7613f41b33c27433",
+        "name" : "Response Data",
+        "source" : "7613f41b33c27433.json",
+        "type" : "application/json",
+        "size" : 291
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Requesting GET endpoint with tag_control",
+      "time" : {
+        "start" : 1691441366223,
+        "stop" : 1691441366413,
+        "duration" : 190
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Checking response status",
+      "time" : {
+        "start" : 1691441366413,
+        "stop" : 1691441366413,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Checking response status",
+        "time" : {
+          "start" : 1691441366413,
+          "stop" : 1691441366413,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Checking tag",
+      "time" : {
+        "start" : 1691441366413,
+        "stop" : 1691441366413,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Printing the result",
+      "time" : {
+        "start" : 1691441366413,
+        "stop" : 1691441366413,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6bc55b5f98b11fa1",
+        "name" : "Response Data",
+        "source" : "6bc55b5f98b11fa1.json",
+        "type" : "application/json",
+        "size" : 291
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Requesting GET endpoint with tag_control",
+      "time" : {
+        "start" : 1691441366413,
+        "stop" : 1691441366602,
+        "duration" : 189
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Checking response status",
+      "time" : {
+        "start" : 1691441366602,
+        "stop" : 1691441366602,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Checking response status",
+        "time" : {
+          "start" : 1691441366602,
+          "stop" : 1691441366602,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Checking tag",
+      "time" : {
+        "start" : 1691441366602,
+        "stop" : 1691441366602,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Printing the result",
+      "time" : {
+        "start" : 1691441366602,
+        "stop" : 1691441366602,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fdb63d674c6993d8",
+        "name" : "Response Data",
+        "source" : "fdb63d674c6993d8.json",
+        "type" : "application/json",
+        "size" : 291
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Requesting GET endpoint with tag_control",
+      "time" : {
+        "start" : 1691441366602,
+        "stop" : 1691441366791,
+        "duration" : 189
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Checking response status",
+      "time" : {
+        "start" : 1691441366792,
+        "stop" : 1691441366792,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Checking response status",
+        "time" : {
+          "start" : 1691441366792,
+          "stop" : 1691441366792,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Checking tag",
+      "time" : {
+        "start" : 1691441366792,
+        "stop" : 1691441366792,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Printing the result",
+      "time" : {
+        "start" : 1691441366792,
+        "stop" : 1691441366792,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24f920ed4a30e261",
+        "name" : "Response Data",
+        "source" : "24f920ed4a30e261.json",
+        "type" : "application/json",
+        "size" : 291
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 50
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Get by id"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "Get memes"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_memes"
+  }, {
+    "name" : "host",
+    "value" : "dc1be0d9c557"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_memes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "meme_id",
+    "value" : "2878"
+  }, {
+    "name" : "tag_c",
+    "value" : "'fun'"
+  } ],
+  "links" : [ {
+    "name" : "https://github.com/usr/project/memes/issues/99",
+    "url" : "https://github.com/usr/project/memes/issues/99",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "45fcffa44a8c4f31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1691441099257,
+          "stop" : 1691441101725,
+          "duration" : 2468
+        }
+      }, {
+        "uid" : "5ad968b9021f04a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1691440705540,
+          "stop" : 1691440708445,
+          "duration" : 2905
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b33e7d4936732e04.json",
+  "parameterValues" : [ "2878", "'fun'" ]
+}
