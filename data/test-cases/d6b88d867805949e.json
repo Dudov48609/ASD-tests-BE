@@ -1,0 +1,305 @@
+{
+  "uid" : "d6b88d867805949e",
+  "name" : "Create a meme",
+  "fullName" : "tests.test_memes#test_create_a_meme",
+  "historyId" : "e2113d090864be51f065952545bea7ba",
+  "time" : {
+    "start" : 1691512443901,
+    "stop" : 1691512444081,
+    "duration" : 180
+  },
+  "description" : "This test involves creating 10 memes and conducting some checks afterwards",
+  "descriptionHtml" : "<p>This test involves creating 10 memes and conducting some checks afterwards</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "tag",
+    "time" : {
+      "start" : 1691512443711,
+      "stop" : 1691512443711,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "texts",
+    "time" : {
+      "start" : 1691512443710,
+      "stop" : 1691512443710,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "infos",
+    "time" : {
+      "start" : 1691512443711,
+      "stop" : 1691512443711,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "urls",
+    "time" : {
+      "start" : 1691512443710,
+      "stop" : 1691512443710,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1691512443523,
+      "stop" : 1691512443523,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1691512443523,
+      "stop" : 1691512443710,
+      "duration" : 187
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This test involves creating 10 memes and conducting some checks afterwards",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Requesting POST endpoint with data",
+      "time" : {
+        "start" : 1691512443901,
+        "stop" : 1691512444081,
+        "duration" : 180
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Checking response status",
+        "time" : {
+          "start" : 1691512444080,
+          "stop" : 1691512444080,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Check meme data (TEXT)",
+      "time" : {
+        "start" : 1691512444081,
+        "stop" : 1691512444081,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check meme data (URL)",
+        "time" : {
+          "start" : 1691512444081,
+          "stop" : 1691512444081,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Printing the result",
+      "time" : {
+        "start" : 1691512444081,
+        "stop" : 1691512444081,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e0f0c4a4fbdf0007",
+        "name" : "Response Data",
+        "source" : "e0f0c4a4fbdf0007.json",
+        "type" : "application/json",
+        "size" : 291
+      }, {
+        "uid" : "90e43527cfcc2f2d",
+        "name" : "Response ID",
+        "source" : "90e43527cfcc2f2d.txt",
+        "type" : "text/plain",
+        "size" : 4
+      }, {
+        "uid" : "42d79661b4fa093e",
+        "name" : "Created items ID",
+        "source" : "42d79661b4fa093e.json",
+        "type" : "application/json",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "Create a meme"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_memes"
+  }, {
+    "name" : "host",
+    "value" : "0246d60bf871"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_memes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "repeat",
+    "value" : "1"
+  } ],
+  "links" : [ {
+    "name" : "https://github.com/usr/project/memes/issues/25",
+    "url" : "https://github.com/usr/project/memes/issues/25",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "60ec59c851376004",
+        "status" : "passed",
+        "time" : {
+          "start" : 1691509971286,
+          "stop" : 1691509971614,
+          "duration" : 328
+        }
+      }, {
+        "uid" : "7158043c8da917cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1691441356355,
+          "stop" : 1691441356546,
+          "duration" : 191
+        }
+      }, {
+        "uid" : "f7df68c1a111cae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1691441088061,
+          "stop" : 1691441088315,
+          "duration" : 254
+        }
+      }, {
+        "uid" : "a018ba65eb7cd538",
+        "status" : "passed",
+        "time" : {
+          "start" : 1691440689523,
+          "stop" : 1691440689823,
+          "duration" : 300
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d6b88d867805949e.json",
+  "parameterValues" : [ "1" ]
+}

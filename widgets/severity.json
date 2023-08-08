@@ -1,140 +1,140 @@
 [ {
-  "uid" : "f779fbdc3daf4eff",
-  "name" : "Create a meme",
-  "time" : {
-    "start" : 1691509971945,
-    "stop" : 1691509972273,
-    "duration" : 328
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "e6a0d62178be5858",
-  "name" : "Create a meme",
-  "time" : {
-    "start" : 1691509973258,
-    "stop" : 1691509973592,
-    "duration" : 334
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "872d5305b3b680d",
-  "name" : "Create a meme",
-  "time" : {
-    "start" : 1691509972604,
-    "stop" : 1691509972929,
-    "duration" : 325
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "9a1fc07c88b905fe",
-  "name" : "Create a meme",
-  "time" : {
-    "start" : 1691509973923,
-    "stop" : 1691509974268,
-    "duration" : 345
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "3365f493f98f76e4",
-  "name" : "Create a meme",
-  "time" : {
-    "start" : 1691509973595,
-    "stop" : 1691509973920,
-    "duration" : 325
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "6b68cbea9d123861",
-  "name" : "Delete meme by id",
-  "time" : {
-    "start" : 1691509975649,
-    "stop" : 1691509975649,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "762ebca019997865",
-  "name" : "Create a meme",
-  "time" : {
-    "start" : 1691509972275,
-    "stop" : 1691509972602,
-    "duration" : 327
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "60ec59c851376004",
-  "name" : "Create a meme",
-  "time" : {
-    "start" : 1691509971286,
-    "stop" : 1691509971614,
-    "duration" : 328
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "ef542a67b9d64eb7",
-  "name" : "Get all memes",
-  "time" : {
-    "start" : 1691509974273,
-    "stop" : 1691509975646,
-    "duration" : 1373
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "58358f4f26b67d4",
+  "uid" : "b20b367c8661b87c",
   "name" : "Change a meme",
   "time" : {
-    "start" : 1691509974269,
-    "stop" : 1691509974269,
+    "start" : 1691512445580,
+    "stop" : 1691512445580,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "6f5f903d26adce84",
+  "uid" : "b0b28de352d5626",
+  "name" : "Create a meme",
+  "time" : {
+    "start" : 1691512444646,
+    "stop" : 1691512444833,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a5099d39f287c295",
+  "name" : "Create a meme",
+  "time" : {
+    "start" : 1691512445018,
+    "stop" : 1691512445201,
+    "duration" : 183
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4fd33240440ba28d",
+  "name" : "Create a meme",
+  "time" : {
+    "start" : 1691512443711,
+    "stop" : 1691512443897,
+    "duration" : 186
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b39f65c1912b8fab",
   "name" : "Get meme by id",
   "time" : {
-    "start" : 1691509975647,
-    "stop" : 1691509975647,
+    "start" : 1691512446491,
+    "stop" : 1691512446491,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "blocker"
 }, {
-  "uid" : "dd68f4147fd01211",
+  "uid" : "9de11fa29f2eda1f",
   "name" : "Create a meme",
   "time" : {
-    "start" : 1691509972932,
-    "stop" : 1691509973256,
-    "duration" : 324
+    "start" : 1691512444455,
+    "stop" : 1691512444644,
+    "duration" : 189
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "2c0f407d1b91f643",
+  "uid" : "b15d845bc291b5cc",
   "name" : "Create a meme",
   "time" : {
-    "start" : 1691509970958,
-    "stop" : 1691509971283,
-    "duration" : 325
+    "start" : 1691512444084,
+    "stop" : 1691512444272,
+    "duration" : 188
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "7e4d1d31d1d8a713",
+  "uid" : "a90ac2bf96e0028b",
+  "name" : "Delete meme by id",
+  "time" : {
+    "start" : 1691512446493,
+    "stop" : 1691512446493,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f1c36ae163d69865",
   "name" : "Create a meme",
   "time" : {
-    "start" : 1691509971618,
-    "stop" : 1691509971943,
-    "duration" : 325
+    "start" : 1691512445393,
+    "stop" : 1691512445579,
+    "duration" : 186
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7c340fcd71d1f1e2",
+  "name" : "Create a meme",
+  "time" : {
+    "start" : 1691512445203,
+    "stop" : 1691512445391,
+    "duration" : 188
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f03de4d8b20aed7e",
+  "name" : "Create a meme",
+  "time" : {
+    "start" : 1691512444835,
+    "stop" : 1691512445016,
+    "duration" : 181
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "df069efa4ed84358",
+  "name" : "Get all memes",
+  "time" : {
+    "start" : 1691512445583,
+    "stop" : 1691512446490,
+    "duration" : 907
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "d6b88d867805949e",
+  "name" : "Create a meme",
+  "time" : {
+    "start" : 1691512443901,
+    "stop" : 1691512444081,
+    "duration" : 180
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4a2048e680191f8a",
+  "name" : "Create a meme",
+  "time" : {
+    "start" : 1691512444274,
+    "stop" : 1691512444453,
+    "duration" : 179
   },
   "status" : "passed",
   "severity" : "critical"

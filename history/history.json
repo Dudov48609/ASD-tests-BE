@@ -95,11 +95,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "d6b88d867805949e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691512443901,
+        "stop" : 1691512444081,
+        "duration" : 180
+      }
+    }, {
       "uid" : "60ec59c851376004",
       "status" : "passed",
       "time" : {
@@ -213,11 +221,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "f1c36ae163d69865",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691512445393,
+        "stop" : 1691512445579,
+        "duration" : 186
+      }
+    }, {
       "uid" : "9a1fc07c88b905fe",
       "status" : "passed",
       "time" : {
@@ -255,12 +271,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b20b367c8661b87c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['meme_id'], function test_change_a_meme at /usr/workspace/tests/test_memes.py:68",
+      "time" : {
+        "start" : 1691512445580,
+        "stop" : 1691512445580,
+        "duration" : 0
+      }
+    }, {
       "uid" : "58358f4f26b67d4",
       "status" : "skipped",
       "statusDetails" : "Skipped: got empty parameter set ['meme_id'], function test_change_a_meme at /usr/workspace/tests/test_memes.py:68",
@@ -742,11 +767,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "b0b28de352d5626",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691512444646,
+        "stop" : 1691512444833,
+        "duration" : 187
+      }
+    }, {
       "uid" : "872d5305b3b680d",
       "status" : "passed",
       "time" : {
@@ -1431,11 +1464,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "9de11fa29f2eda1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691512444455,
+        "stop" : 1691512444644,
+        "duration" : 189
+      }
+    }, {
       "uid" : "762ebca019997865",
       "status" : "passed",
       "time" : {
@@ -1473,12 +1514,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b39f65c1912b8fab",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['meme_id'], function test_get_a_meme_with_id at /usr/workspace/tests/test_memes.py:109",
+      "time" : {
+        "start" : 1691512446491,
+        "stop" : 1691512446491,
+        "duration" : 0
+      }
+    }, {
       "uid" : "6f5f903d26adce84",
       "status" : "skipped",
       "statusDetails" : "Skipped: got empty parameter set ['meme_id'], function test_get_a_meme_with_id at /usr/workspace/tests/test_memes.py:109",
@@ -1493,12 +1543,21 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a90ac2bf96e0028b",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: got empty parameter set ['meme_id'], function test_delete_a_meme at /usr/workspace/tests/test_memes.py:130",
+      "time" : {
+        "start" : 1691512446493,
+        "stop" : 1691512446493,
+        "duration" : 0
+      }
+    }, {
       "uid" : "6b68cbea9d123861",
       "status" : "skipped",
       "statusDetails" : "Skipped: got empty parameter set ['meme_id'], function test_delete_a_meme at /usr/workspace/tests/test_memes.py:130",
@@ -1597,11 +1656,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "4a2048e680191f8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691512444274,
+        "stop" : 1691512444453,
+        "duration" : 179
+      }
+    }, {
       "uid" : "f779fbdc3daf4eff",
       "status" : "passed",
       "time" : {
@@ -1821,11 +1888,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "f03de4d8b20aed7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691512444835,
+        "stop" : 1691512445016,
+        "duration" : 181
+      }
+    }, {
       "uid" : "dd68f4147fd01211",
       "status" : "passed",
       "time" : {
@@ -2048,11 +2123,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "b15d845bc291b5cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691512444084,
+        "stop" : 1691512444272,
+        "duration" : 188
+      }
+    }, {
       "uid" : "7e4d1d31d1d8a713",
       "status" : "passed",
       "time" : {
@@ -2091,11 +2174,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "4fd33240440ba28d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691512443711,
+        "stop" : 1691512443897,
+        "duration" : 186
+      }
+    }, {
       "uid" : "2c0f407d1b91f643",
       "status" : "passed",
       "time" : {
@@ -2411,11 +2502,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "7c340fcd71d1f1e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691512445203,
+        "stop" : 1691512445391,
+        "duration" : 188
+      }
+    }, {
       "uid" : "3365f493f98f76e4",
       "status" : "passed",
       "time" : {
@@ -2569,11 +2668,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "a5099d39f287c295",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691512445018,
+        "stop" : 1691512445201,
+        "duration" : 183
+      }
+    }, {
       "uid" : "e6a0d62178be5858",
       "status" : "passed",
       "time" : {
@@ -3366,11 +3473,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "df069efa4ed84358",
+      "status" : "passed",
+      "time" : {
+        "start" : 1691512445583,
+        "stop" : 1691512446490,
+        "duration" : 907
+      }
+    }, {
       "uid" : "ef542a67b9d64eb7",
       "status" : "passed",
       "time" : {

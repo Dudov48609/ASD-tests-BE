@@ -1,0 +1,123 @@
+{
+  "uid" : "a90ac2bf96e0028b",
+  "name" : "Delete meme by id",
+  "fullName" : "tests.test_memes#test_delete_a_meme",
+  "historyId" : "c8a401ce7c271ea649006dd1d1025c88",
+  "time" : {
+    "start" : 1691512446493,
+    "stop" : 1691512446493,
+    "duration" : 0
+  },
+  "description" : "This test involves getting a meme by its id and conducting some checks afterwards",
+  "descriptionHtml" : "<p>This test involves getting a meme by its id and conducting some checks afterwards</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: got empty parameter set ['meme_id'], function test_delete_a_meme at /usr/workspace/tests/test_memes.py:130",
+  "statusTrace" : "('/usr/workspace/tests/test_memes.py', 131, \"Skipped: got empty parameter set ['meme_id'], function test_delete_a_meme at /usr/workspace/tests/test_memes.py:130\")",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1691512443523,
+      "stop" : 1691512443523,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "auth_token",
+    "time" : {
+      "start" : 1691512443523,
+      "stop" : 1691512443710,
+      "duration" : 187
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Delete memes"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='got empty parameter set ['meme_id'], function test_delete_a_meme at /usr/workspace/tests/test_memes.py:130')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_memes"
+  }, {
+    "name" : "host",
+    "value" : "0246d60bf871"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_memes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "meme_id",
+    "value" : "<NotSetType.token: 0>"
+  } ],
+  "links" : [ {
+    "name" : "https://github.com/usr/project/memes/issues/12",
+    "url" : "https://github.com/usr/project/memes/issues/12",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6b68cbea9d123861",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: got empty parameter set ['meme_id'], function test_delete_a_meme at /usr/workspace/tests/test_memes.py:130",
+        "time" : {
+          "start" : 1691509975649,
+          "stop" : 1691509975649,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skip(reason='got empty parameter set ['meme_id'], function test_delete_a_meme at /usr/workspace/tests/test_memes.py:130')" ]
+  },
+  "source" : "a90ac2bf96e0028b.json",
+  "parameterValues" : [ "<NotSetType.token: 0>" ]
+}
