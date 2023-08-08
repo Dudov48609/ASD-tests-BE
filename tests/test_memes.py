@@ -50,7 +50,9 @@ def read_csv_and_skip_first_row(filename):
 
     with open(filename, 'r') as csvfile:
         reader = csv.reader(csvfile)
-        next(reader)  # Skip the header row
+
+        if csv.Sniffer().has_header(csvfile.read(1024)):
+            next(reader)  # Skip the header row if it exists
 
         for row in reader:
             data = row[0]  # Get the 'Data' column value
