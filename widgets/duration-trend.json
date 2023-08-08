@@ -13,6 +13,8 @@
 }, {
   "data" : { }
 }, {
+  "data" : { }
+}, {
   "data" : {
     "duration" : 25602
   }
@@ -55,9 +57,5 @@
 }, {
   "data" : {
     "duration" : 10436
-  }
-}, {
-  "data" : {
-    "duration" : 7780
   }
 } ]
