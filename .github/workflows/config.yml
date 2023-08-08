@@ -29,7 +29,7 @@ jobs:
 
       - name: Show results.csv
         run: |
-          sudo echo tests/results.csv
+          sudo cat tests/results.csv
 
       - name: Copy history from gh-pages to allure-results
         run: |
