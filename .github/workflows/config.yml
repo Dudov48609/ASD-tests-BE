@@ -19,6 +19,7 @@ jobs:
         run: |
           sudo mkdir -p tests
           sudo touch results.csv
+          sudo ls-l
 
       - name: Run BE tests via docker-compose
         env:
