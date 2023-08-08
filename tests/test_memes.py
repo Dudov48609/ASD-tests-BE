@@ -11,7 +11,7 @@ import os
 def save_to_csv(data_list, filename):
     with open(filename, 'w', newline='') as csvfile:
         fieldnames = ['Data']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer = csv.DictWriter(csvfile, delimiter=',', fieldnames=fieldnames)
         writer.writeheader()
 
         for index, data in enumerate(data_list, start=1):
@@ -49,7 +49,7 @@ def read_csv_and_skip_first_row(filename):
     data_list = []
 
     with open(filename, 'r') as csvfile:
-        reader = csv.reader(csvfile)
+        reader = csv.reader(csvfile, delimiter=',')
 
         if csv.Sniffer().has_header(csvfile.read(1024)):
             next(reader)  # Skip the header row if it exists
