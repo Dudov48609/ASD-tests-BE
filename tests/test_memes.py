@@ -45,16 +45,14 @@ def test_create_a_meme(base_url, auth_token, texts, urls, tag, infos, repeat):
         allure.attach(str(created_items_ids), name="Created items ID", attachment_type=allure.attachment_type.JSON)
 
 
-def read_csv_and_skip_first_row(filename):
+def read_csv_and_skip_first_row(filename, delimiter=','):
     data_list = []
 
     with open(filename, 'r', newline='') as csvfile:
-        file_content = csvfile.read()  # Read the entire file content
-        sniffer = csv.Sniffer()
-        dialect = sniffer.sniff(file_content)
-        reader = csv.reader(file_content.splitlines(), dialect)  # Use splitlines to create a list of lines
+        reader = csv.reader(csvfile, delimiter=delimiter)
 
-        if csv.Sniffer().has_header(file_content):  # Check for header in the entire file content
+        if csv.Sniffer().has_header(csvfile.read(1024)):
+            csvfile.seek(0)  # Return to the beginning of the file
             next(reader)  # Skip the header row if it exists
 
         for row in reader:
@@ -64,7 +62,7 @@ def read_csv_and_skip_first_row(filename):
     return data_list
 
 
-data_list = read_csv_and_skip_first_row(csv_file_path)
+data_list = read_csv_and_skip_first_row(csv_file_path, delimiter=',')
 
 
 # @pytest.mark.skip
