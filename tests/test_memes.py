@@ -48,7 +48,7 @@ def test_create_a_meme(base_url, auth_token, texts, urls, tag, infos, repeat):
 def read_csv_and_skip_first_row(filename):
     data_list = []
 
-    with open(filename, 'r') as csvfile:
+    with open(filename, 'r', newline='') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
 
         if csv.Sniffer().has_header(csvfile.read(1024)):
