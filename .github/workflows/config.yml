@@ -18,8 +18,7 @@ jobs:
       - name: Add /usr/workspace/tests/results.csv
         run: |
           sudo mkdir -p tests
-          sudo cd tests
-          sudo touch results.csv
+          sudo touch tests/results.csv
           sudo ls -l
 
       - name: Run BE tests via docker-compose
