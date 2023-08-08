@@ -19,7 +19,6 @@ jobs:
         run: |
           sudo mkdir -p tests
           sudo touch tests/results.csv
-          sudo tests/ ls -l
           sudo head tests/results.csv
 
       - name: Run BE tests via docker-compose
