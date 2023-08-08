@@ -19,6 +19,7 @@ jobs:
         run: |
           sudo mkdir -p tests
           sudo touch tests/results.csv
+          echo "Data" | cat - tests/results.csv > temp && mv temp tests/results.csv
           sudo tail tests/results.csv
 
       - name: Run BE tests via docker-compose
