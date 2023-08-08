@@ -27,6 +27,10 @@ jobs:
         run: |
           docker-compose up --exit-code-from regression-tests-BE || true
 
+      - name: Show results.csv
+        run: |
+          sudo echo tests/results.csv
+
       - name: Copy history from gh-pages to allure-results
         run: |
           sudo mkdir -p allure-results/history
